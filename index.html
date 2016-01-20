@@ -14,7 +14,7 @@
         </div>
         <nav class="nav">
           <a href="#">Add Event</a>
-          <button type="button" name="register">Join Us</button>
+          <button type="button" name="register">Join us</button>
         </nav>
     </header>
        <section class="hero">
@@ -22,17 +22,68 @@
            <h1>Amazing performances near you</h1>
            <h3>Discover the top live music events in the Southeast</h3>
          </div>
-         <form class="" action="index.html" method="post">
-           <input type="text" name="search" value="" placeholder="Enter your favorite artist or genre">
-           <input type="text" name="Location" value="" placeholder="Location">
-           <input type="text" name="budjet" value="" placeholder="Budget">
-           <button type="submit" name="submitBtn">Find events</button>
+         <form class="searchForm" action="index.html" method="post">
+           <input id="search" type="text" name="search" value="" placeholder="Enter your favorite artist or genre">
+           <input id="location"class="dropDown" type="text" name="Location" value="" placeholder="Location">
+           <input id="budget" class="dropDown"  type="text" name="budjet" value="" placeholder="Budget">
+           <button id="submitBtn" type="submit" name="submitBtn">Find events</button>
          </form>
        </section>
       </div>
       </div>
        <section class="featured">
+         <nav class="featuredNav">
+           <a href="#">Most popular</a>
+           <a href="#">Coming up</a>
+           <a href="#">Near you</a>
+         </nav>
+         <article>
+           <img src="assets/amp.png" alt="" />
+           <div class="info">
+             <span>Country</span>
+             <a href="#">Kenny Chesney w/ Grace Potter</a>
+           </div>
+           <div class="location">
+             <h5>Location</h5>
+             <h4>Nashville, TN</h4>
+           </div>
+           <div class="price">
+             <h5>Price</h5>
+             <h4>$30-260</h4>
+           </div>
+         </article>
 
+         <article>
+           <img src="assets/sax.png" alt="" />
+           <div class="info">
+             <span>Jazz</span>
+             <a href="#">Gerald Albright Band</a>
+           </div>
+           <div class="location">
+             <h5>Location</h5>
+             <h4>Atlanta, GA</h4>
+           </div>
+           <div class="price">
+             <h5>Price</h5>
+             <h4>$15-90</h4>
+           </div>
+         </article>
+
+         <article>
+           <img src="assets/rockChurch.png" alt="" />
+           <div class="info">
+             <span>ELECTRONIC</span>
+             <a href="#">The Rock Church</a>
+           </div>
+           <div class="location">
+             <h5>Location</h5>
+             <h4>Birmingham, AL</h4>
+           </div>
+           <div class="price">
+             <h5>Price</h5>
+             <h4>$20-40</h4>
+           </div>
+         </article>
        </section>
   </body>
 </html>
