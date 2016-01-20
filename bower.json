@@ -1,0 +1,21 @@
+{
+  "name": "caddisTest",
+  "authors": [
+    "Freddy Roberts <freddyroberts9@gmail.com>"
+  ],
+  "description": "Test sketch",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "neat": "~1.7.2"
+  }
+}

@@ -1,0 +1,58 @@
+@import "/Users/fredroberts/dev/Caddis/CaddisTest/bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+$visual-grid: true !default;
+@import "/Users/fredroberts/dev/Caddis/CaddisTest/bower_components/neat/app/assets/stylesheets/_neat.scss";
+// @import "_variables.scss"
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+//  HEADER --------
+header {
+  @include outer-container(12);
+  @include pad(20px 30px 30px 20px);
+
+
+.logoWrapper {
+  @include span-columns(2 of 12);
+
+}
+  .nav {
+    @include span-columns(8 of 12);
+    @include shift(2);
+
+    a {
+      @include span-columns(4 of 8)
+      text-decoration: none;
+      color: #fff;
+      line-height: 49px;
+
+    }
+    button {
+      @include span-columns(4 of 8);
+      color: #E3694C;
+      // margin-top: 15px;
+      width: 85px;
+      height: 40px;
+      background: #FFFFFF;
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      font-family: 'Lato', sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+      // line-height: 16px;
+    }
+  }
+}
+// hero
+
+.heroImgWrapper {
+  background-image: url("../assets/heroPhoto.png");
+  background-repeat: no-repeat;
+  background-position-x: -353px;
+  top: 0;
+  left: 0;
+  height: 845px;
+}
+
+.hero {
+
+}
