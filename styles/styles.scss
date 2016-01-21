@@ -1,10 +1,16 @@
 @import "/Users/fredroberts/dev/Caddis/CaddisTest/bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
-// $visual-grid: true !default;
+$visual-grid: true !default;
+@import "_variables.scss";
 @import "/Users/fredroberts/dev/Caddis/CaddisTest/bower_components/neat/app/assets/stylesheets/_neat.scss";
-// @import "_variables.scss"
+
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-//  HEADER --------
+// RESPONSIVE BREAKPOINTS
+$tablet: new-breakpoint(min-width 500px 4);
+$desktop: new-breakpoint(min-width 769px 4);
+
+ // HEADER --------
+
 header {
   @include outer-container(12);
   @include pad(20px 20px 30px 20px);
@@ -29,6 +35,17 @@ header {
       letter-spacing: 0.5px;
 
     }
+
+    .links {
+      display: none;
+
+      @include media($tablet) {
+        display: inline;
+      }
+    }
+
+
+
     button {
       @include span-columns(4 of 7);
       @include omega;
@@ -54,6 +71,11 @@ header {
   top: 0;
   left: 0;
   height: 645px;
+  @include media($tablet) {
+    background-image: url("../assets/heroTablet.png");
+    background-position: 0px 0px;
+    height: 550px;
+  };
 }
 
 .hero {
@@ -69,6 +91,9 @@ header {
     font-family: 'Lato', sans-serif;
     color: #fff;
     letter-spacing: 0.5px;
+    @include media($tablet) {
+      @include pad(10px 38px 10px 62px);
+    };
   }
 
   h3 {
@@ -80,16 +105,22 @@ header {
     color: #fff;
     line-height: 32px;
     letter-spacing: 0.5px;
+    @include media($tablet) {
+      @include pad(15px 38px 45px 62px);
+      line-height: 25px;
+    };
   }
 
   .searchForm {
     @include span-columns(10 of 12);
     @include shift(1);
-    // @include pad(20px 20px 20px 20px);
-    // @include omega();
+    @include media($tablet) {
+      @include shift(1.4);
+    };
     #search {
       @include span-columns(10 of 10);
       @include pad(20px 20px 20px 20px);
+      @include omega;
       height: 50px;
       border-radius: 3px;
       border: none;
@@ -97,7 +128,9 @@ header {
       font-size: 15px;
       letter-spacing: 0.5px;
       color: #9B9DA0;
-
+      @include media($tablet) {
+        @include span-columns(9.33 of 10);
+      };
     }
     #location {
       @include span-columns(5 of 10);
@@ -115,6 +148,10 @@ header {
       font-size: 15px;
       letter-spacing: 0.5px;
       color: #9B9DA0;
+      @include media($tablet) {
+        @include span-columns(3 of 9.33);
+        margin: 12px 8px 15px 0;
+      };
     }
     #budget {
       @include span-columns(5 of 10);
@@ -132,10 +169,15 @@ header {
       font-size: 15px;
       letter-spacing: 0.5px;
       color: #9B9DA0;
+      @include media($tablet) {
+        @include span-columns(3 of 9.33);
+        margin: 12px 8px 15px 0;
+      };
     }
 
     #submitBtn {
       @include span-columns(10 of 10);
+      @include omega;
       height: 50px;
       background-color: #90C45B;
       border-radius: 3px;
@@ -144,6 +186,10 @@ header {
       font-size: 15px;
       letter-spacing: 0.5px;
       color: #fff;
+      @include media($tablet) {
+        @include span-columns(3 of 9.33);
+        margin: 12px 8px 15px 0;
+      };
     }
   }
 }
@@ -156,8 +202,12 @@ header {
   text-align: center;
   .featuredNav {
     @include span-columns(12 of 12);
-    @include pad(40px 20px 8px 20px);
+    @include pad(40px 20px 8px 30px);
     text-align: center;
+    @include media($tablet) {
+      @include pad(34px 20px 8px 0px);
+      text-align: left;
+    };
     a {
       @include span-columns(4 of 12);
       text-decoration: none;
@@ -167,6 +217,9 @@ header {
       &:hover {
         color: #90C45B;
       }
+      @include media($tablet) {
+        @include span-columns(2.5 of 12);
+      };
     }
   }
 
@@ -175,6 +228,15 @@ header {
     margin-top: 40px;
     border-radius: 3px;
     height: 262px;
+  }
+    #ampImg {
+      @include media($tablet) {
+        content:url("../assets/tabletAmp.png");
+        width: 100%;
+        margin-right: 2%;
+        height: 320px;
+      };
+
   }
 
   .info {

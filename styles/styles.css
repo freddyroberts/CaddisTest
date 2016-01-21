@@ -5,6 +5,25 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+body:before {
+  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
+  background-image: -moz-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
+  background-image: -ms-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
+  background-image: -o-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
+  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 68em;
+  opacity: 0.4;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: -1; }
+
 header {
   max-width: 12;
   margin-left: auto;
@@ -44,6 +63,11 @@ header {
       letter-spacing: 0.5px; }
       header .nav a:last-child {
         margin-right: 0; }
+    header .nav .links {
+      display: none; }
+      @media screen and (min-width: 500px) {
+        header .nav .links {
+          display: inline; } }
     header .nav button {
       float: left;
       display: block;
@@ -69,6 +93,11 @@ header {
   top: 0;
   left: 0;
   height: 645px; }
+  @media screen and (min-width: 500px) {
+    .heroImgWrapper {
+      background-image: url("../assets/heroTablet.png");
+      background-position: 0px 0px;
+      height: 550px; } }
 
 .hero {
   max-width: 12;
@@ -88,6 +117,9 @@ header {
     font-family: 'Lato', sans-serif;
     color: #fff;
     letter-spacing: 0.5px; }
+    @media screen and (min-width: 500px) {
+      .hero h1 {
+        padding: 10px 38px 10px 62px; } }
   .hero h3 {
     padding: 0px 26px 35px 26px;
     margin: 0;
@@ -97,6 +129,10 @@ header {
     color: #fff;
     line-height: 32px;
     letter-spacing: 0.5px; }
+    @media screen and (min-width: 500px) {
+      .hero h3 {
+        padding: 15px 38px 45px 62px;
+        line-height: 25px; } }
   .hero .searchForm {
     float: left;
     display: block;
@@ -105,12 +141,16 @@ header {
     margin-left: 8.5298%; }
     .hero .searchForm:last-child {
       margin-right: 0; }
+    @media screen and (min-width: 500px) {
+      .hero .searchForm {
+        margin-left: 11.94173%; } }
     .hero .searchForm #search {
       float: left;
       display: block;
       margin-right: 2.84259%;
       width: 100%;
       padding: 20px 20px 20px 20px;
+      margin-right: 0;
       height: 50px;
       border-radius: 3px;
       border: none;
@@ -120,6 +160,14 @@ header {
       color: #9B9DA0; }
       .hero .searchForm #search:last-child {
         margin-right: 0; }
+      @media screen and (min-width: 500px) {
+        .hero .searchForm #search {
+          float: left;
+          display: block;
+          margin-right: 2.84259%;
+          width: 93.10955%; }
+          .hero .searchForm #search:last-child {
+            margin-right: 0; } }
     .hero .searchForm #location {
       float: left;
       display: block;
@@ -141,6 +189,15 @@ header {
       color: #9B9DA0; }
       .hero .searchForm #location:last-child {
         margin-right: 0; }
+      @media screen and (min-width: 500px) {
+        .hero .searchForm #location {
+          float: left;
+          display: block;
+          margin-right: 3.05295%;
+          width: 30.08305%;
+          margin: 12px 8px 15px 0; }
+          .hero .searchForm #location:last-child {
+            margin-right: 0; } }
     .hero .searchForm #budget {
       float: left;
       display: block;
@@ -162,11 +219,21 @@ header {
       color: #9B9DA0; }
       .hero .searchForm #budget:last-child {
         margin-right: 0; }
+      @media screen and (min-width: 500px) {
+        .hero .searchForm #budget {
+          float: left;
+          display: block;
+          margin-right: 3.05295%;
+          width: 30.08305%;
+          margin: 12px 8px 15px 0; }
+          .hero .searchForm #budget:last-child {
+            margin-right: 0; } }
     .hero .searchForm #submitBtn {
       float: left;
       display: block;
       margin-right: 2.84259%;
       width: 100%;
+      margin-right: 0;
       height: 50px;
       background-color: #90C45B;
       border-radius: 3px;
@@ -177,6 +244,15 @@ header {
       color: #fff; }
       .hero .searchForm #submitBtn:last-child {
         margin-right: 0; }
+      @media screen and (min-width: 500px) {
+        .hero .searchForm #submitBtn {
+          float: left;
+          display: block;
+          margin-right: 3.05295%;
+          width: 30.08305%;
+          margin: 12px 8px 15px 0; }
+          .hero .searchForm #submitBtn:last-child {
+            margin-right: 0; } }
 
 .featured {
   max-width: 12;
@@ -193,10 +269,14 @@ header {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    padding: 40px 20px 8px 20px;
+    padding: 40px 20px 8px 30px;
     text-align: center; }
     .featured .featuredNav:last-child {
       margin-right: 0; }
+    @media screen and (min-width: 500px) {
+      .featured .featuredNav {
+        padding: 34px 20px 8px 0px;
+        text-align: left; } }
     .featured .featuredNav a {
       float: left;
       display: block;
@@ -210,10 +290,24 @@ header {
         margin-right: 0; }
       .featured .featuredNav a:hover {
         color: #90C45B; }
+      @media screen and (min-width: 500px) {
+        .featured .featuredNav a {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 18.96686%; }
+          .featured .featuredNav a:last-child {
+            margin-right: 0; } }
   .featured img {
     margin-top: 40px;
     border-radius: 3px;
     height: 262px; }
+  @media screen and (min-width: 500px) {
+    .featured #ampImg {
+      content: url("../assets/tabletAmp.png");
+      width: 100%;
+      margin-right: 2%;
+      height: 320px; } }
   .featured .info {
     float: left;
     display: block;
