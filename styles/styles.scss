@@ -144,5 +144,107 @@ header {
 
 .featured {
   @include outer-container(12);
-  
+  @include pad();
+  text-align: center;
+  .featuredNav {
+    @include span-columns(12 of 12);
+    @include pad(40px 20px 46px 20px);
+    text-align: center;
+    a {
+      @include span-columns(4 of 12);
+      text-decoration: none;
+      font-size: 15px;
+      font-family: 'Lato', sans-serif;
+      color: #4D4F56;
+      &:hover {
+        color: #90C45B;
+      }
+    }
+  }
+
+
+  img {
+    border-radius: 3px;
+    height: 262px;
+  }
+
+  .info {
+    @include span-columns(8 of 8);
+    @include pad(15px 20px 46px 45px);
+
+    span {
+      @include span-columns(8 of 8);
+      // @include pad();
+      text-align: left;
+      color: #B3B5BE;
+      font-size: 12px;
+      font-family: 'Lato', sans-serif;
+    }
+    a {
+      @include span-columns(8 of 8);
+      @include omega;
+      // @include pad();
+      text-align: left;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+      color: #E3694C;
+    }
+  }
+
+  .location {
+    @include span-columns(4.4 of 8.8);
+    // @include pad();
+    // @include omega()
+    border-top: 1px solid #B3B5BE;
+    border-right: 1px solid #B3B5BE;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    h5 {
+      margin: 0;
+      font-size: 12px;
+      color: #B3B5BE;
+      letter-spacing: 0.5;
+    }
+     h4 {
+       margin: 0;
+       font-size: 16px;
+       color: #4D4F56;
+     }
+  }
+
+  .price {
+    @include span-columns(4.4 of 8.8);
+    // @include pad();
+    // @include omega();
+    border-top: 1px solid #B3B5BE;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    h5 {
+      margin: 0;
+      font-size: 12px;
+      color: #B3B5BE;
+      letter-spacing: 0.5;
+    }
+     h4 {
+       margin: 0;
+       font-size: 16px;
+       color: #4D4F56;
+     }
+  }
+
+  #discoverBtn {
+    @include span-columns(6 of 12);
+    @include shift(3);
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #B3B5BE;
+    height: 50px;
+    color: #90C45B;
+    font-size: 15px;
+    letter-spacing: 0.5;
+    font-family: 'Lato', sans-serif;
+
+  }
 }
