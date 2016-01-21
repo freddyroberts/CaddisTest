@@ -24,8 +24,12 @@
          </div>
          <form class="searchForm" action="index.html" method="post">
            <input id="search" type="text" name="search" value="" placeholder="Enter your favorite artist or genre">
-           <input id="location"class="dropDown" type="text" name="Location" value="" placeholder="Location">
-           <input id="budget" class="dropDown"  type="text" name="budjet" value="" placeholder="Budget">
+           <select id="location"class="dropDown" type="text" name="Location">
+             <option value="" disabled selected>Location</option>
+           </select>
+           <select id="budget" class="dropDown"  type="text" name="budjet">
+             <option value="" disabled selected>Budget</option>
+           </select>
            <button id="submitBtn" type="submit" name="submitBtn">Find events</button>
          </form>
        </section>
@@ -44,11 +48,11 @@
              <a href="#">Kenny Chesney w/ Grace Potter</a>
            </div>
            <div class="location">
-             <h5>Location</h5>
+             <h5>LOCATION</h5>
              <h4>Nashville, TN</h4>
            </div>
            <div class="price">
-             <h5>Price</h5>
+             <h5>PRICE</h5>
              <h4>$30-260</h4>
            </div>
          </article>
@@ -60,11 +64,11 @@
              <a href="#">Gerald Albright Band</a>
            </div>
            <div class="location">
-             <h5>Location</h5>
+             <h5>LOCATION</h5>
              <h4>Atlanta, GA</h4>
            </div>
            <div class="price">
-             <h5>Price</h5>
+             <h5>PRICE</h5>
              <h4>$15-90</h4>
            </div>
          </article>
@@ -76,11 +80,11 @@
              <a href="#">The Rock Church</a>
            </div>
            <div class="location">
-             <h5>Location</h5>
+             <h5>LOCATION</h5>
              <h4>Birmingham, AL</h4>
            </div>
            <div class="price">
-             <h5>Price</h5>
+             <h5>PRICE</h5>
              <h4>$20-40</h4>
            </div>
          </article>

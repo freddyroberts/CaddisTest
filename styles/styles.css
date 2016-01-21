@@ -5,30 +5,11 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  background-image: -moz-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  background-image: -ms-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  background-image: -o-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 68em;
-  opacity: 0.4;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: -1; }
-
 header {
   max-width: 12;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px 30px 30px 20px; }
+  padding: 20px 20px 30px 20px; }
   header::after {
     clear: both;
     content: "";
@@ -44,15 +25,17 @@ header {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 65.88078%;
-    margin-left: 17.05961%; }
+    width: 57.35098%;
+    margin-right: 0;
+    margin-left: 25.58941%; }
     header .nav:last-child {
       margin-right: 0; }
     header .nav a {
       float: left;
       display: block;
-      margin-right: 3.57866%;
-      width: 48.21067%;
+      margin-right: 4.11092%;
+      width: 40.50805%;
+      margin-right: 0;
       font-family: 'Lato', sans-serif;
       font-size: 12px;
       text-decoration: none;
@@ -64,13 +47,13 @@ header {
     header .nav button {
       float: left;
       display: block;
-      margin-right: 3.57866%;
-      width: 48.21067%;
+      margin-right: 4.11092%;
+      width: 55.38104%;
+      margin-right: 0;
       color: #E3694C;
       width: 90px;
       height: 40px;
       background: #FFFFFF;
-      outline: none;
       border: none;
       border-radius: 3px;
       font-family: 'Lato', sans-serif;
@@ -143,11 +126,15 @@ header {
       margin-right: 2.84259%;
       width: 48.57871%;
       margin-right: 0;
-      padding: 20px 20px 20px 20px;
+      padding: 10px 20px 10px 20px;
       margin: 15px 8px 15px 0;
       height: 50px;
       border-radius: 3px;
       border: none;
+      -webkit-appearance: none;
+      background-image: url("../assets/Arrow.png");
+      background-repeat: no-repeat;
+      background-position: 82%;
       font-family: 'Lato', sans-serif;
       font-size: 15px;
       letter-spacing: 0.5px;
@@ -160,11 +147,15 @@ header {
       margin-right: 2.84259%;
       width: 48.57871%;
       margin-right: 0;
-      padding: 20px 20px 20px 20px;
+      padding: 10px 20px 10px 10px;
       margin: 15px 0px 15px 0;
       height: 50px;
       border-radius: 3px;
       border: none;
+      -webkit-appearance: none;
+      background-image: url("../assets/Arrow.png");
+      background-repeat: no-repeat;
+      background-position: 82%;
       font-family: 'Lato', sans-serif;
       font-size: 15px;
       letter-spacing: 0.5px;
@@ -202,7 +193,7 @@ header {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    padding: 40px 20px 46px 20px;
+    padding: 40px 20px 8px 20px;
     text-align: center; }
     .featured .featuredNav:last-child {
       margin-right: 0; }
@@ -220,6 +211,7 @@ header {
       .featured .featuredNav a:hover {
         color: #90C45B; }
   .featured img {
+    margin-top: 40px;
     border-radius: 3px;
     height: 262px; }
   .featured .info {
@@ -227,7 +219,7 @@ header {
     display: block;
     margin-right: 3.57866%;
     width: 100%;
-    padding: 15px 20px 46px 45px; }
+    padding: 15px 20px 10px 45px; }
     .featured .info:last-child {
       margin-right: 0; }
     .featured .info span {
@@ -248,6 +240,7 @@ header {
       width: 100%;
       margin-right: 0;
       text-align: left;
+      line-height: 32px;
       text-decoration: none;
       font-family: 'Lato', sans-serif;
       font-size: 18px;
@@ -257,17 +250,22 @@ header {
   .featured .location {
     float: left;
     display: block;
-    margin-right: 3.24278%;
-    width: 48.37861%;
-    border-top: 1px solid #B3B5BE;
-    border-right: 1px solid #B3B5BE;
+    margin-right: 3.57866%;
+    width: 37.8528%;
+    margin-left: 11.6526%;
+    padding: 10px 15px 10px 10px;
+    margin-right: 0;
+    border-top: 2px solid #E1E2E5;
+    border-right: 2px solid #E1E2E5;
     text-align: right;
+    line-height: 25px;
     font-family: 'Lato', sans-serif; }
     .featured .location:last-child {
       margin-right: 0; }
     .featured .location h5 {
       margin: 0;
       font-size: 12px;
+      font-weight: lighter;
       color: #B3B5BE;
       letter-spacing: 0.5; }
     .featured .location h4 {
@@ -277,10 +275,12 @@ header {
   .featured .price {
     float: left;
     display: block;
-    margin-right: 3.24278%;
-    width: 48.37861%;
-    border-top: 1px solid #B3B5BE;
+    margin-right: 3.57866%;
+    width: 37.8528%;
+    padding: 10px 10px 10px 15px;
+    border-top: 2px solid #E1E2E5;
     text-align: left;
+    line-height: 25px;
     font-family: 'Lato', sans-serif; }
     .featured .price:last-child {
       margin-right: 0; }
@@ -293,6 +293,14 @@ header {
       margin: 0;
       font-size: 16px;
       color: #4D4F56; }
+  .featured .discover {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 20px 20px 98px 20px; }
+    .featured .discover:last-child {
+      margin-right: 0; }
   .featured #discoverBtn {
     float: left;
     display: block;
@@ -310,3 +318,26 @@ header {
     font-family: 'Lato', sans-serif; }
     .featured #discoverBtn:last-child {
       margin-right: 0; }
+
+footer {
+  max-width: 12;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px 20px 46px 45px;
+  text-align: center;
+  line-height: 30px;
+  border-top: 1px solid #E1E2E5;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  height: 140px;
+  color: #B3B5BE;
+  font-size: 13px; }
+  footer::after {
+    clear: both;
+    content: "";
+    display: table; }
+  footer a {
+    color: #B3B5BE;
+    margin-right: 14px; }
+  footer span {
+    margin-right: 24px; }
