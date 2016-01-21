@@ -14,7 +14,9 @@ $desktop: new-breakpoint(min-width 769px 4);
 header {
   @include outer-container(12);
   @include pad(20px 20px 30px 20px);
-
+  @include media($tablet) {
+    @include pad(20px 40px 30px 40px);
+  }
 
 .logoWrapper {
   @include span-columns(2 of 12);
@@ -23,7 +25,10 @@ header {
     @include span-columns(7 of 12);
     @include omega;
     @include shift(3);
-
+    @include media($tablet) {
+      @include span-columns(8 of 12);
+      @include shift(2);
+    }
     a {
       @include span-columns(3 of 7);
       @include omega;
@@ -33,21 +38,21 @@ header {
       color: #fff;
       line-height: 49px;
       letter-spacing: 0.5px;
-
+      @include media($tablet) {
+        @include span-columns(2 of 8);
+        // @include omega;
+        text-align: right;
+      }
     }
 
     .links {
       display: none;
-
       @include media($tablet) {
         display: inline;
       }
     }
 
-
-
     button {
-      @include span-columns(4 of 7);
       @include omega;
       color: #E3694C;
       width: 90px;
@@ -58,6 +63,9 @@ header {
       font-family: 'Lato', sans-serif;
       font-size: 13px;
       letter-spacing: 0.5px;
+      @include media($tablet) {
+        @include span-columns(2 of 8);
+      }
     }
   }
 }
@@ -75,7 +83,12 @@ header {
     background-image: url("../assets/heroTablet.png");
     background-position: 0px 0px;
     height: 550px;
-  };
+  }
+  @include media($desktop) {
+    background-image: url("../assets/heroDesktop.png");
+    background-position: 0px 0px;
+    height: 650px;
+  }
 }
 
 .hero {
@@ -93,7 +106,12 @@ header {
     letter-spacing: 0.5px;
     @include media($tablet) {
       @include pad(10px 38px 10px 62px);
-    };
+    }
+    @include media($desktop) {
+      font-size: 64px;
+      line-height: 54px;
+      @include pad(75px 88px 10px 78px);
+    }
   }
 
   h3 {
@@ -108,7 +126,12 @@ header {
     @include media($tablet) {
       @include pad(15px 38px 45px 62px);
       line-height: 25px;
-    };
+    }
+    @include media($desktop) {
+      font-size: 32px;
+      line-height: 35px;
+      @include pad(15px 38px 45px 62px);
+    }
   }
 
   .searchForm {
@@ -116,7 +139,12 @@ header {
     @include shift(1);
     @include media($tablet) {
       @include shift(1.4);
-    };
+    }
+    @include media($desktop) {
+      @include span-columns(5.95 of 12);
+      @include shift(3.2);
+      margin-top: 26px;
+    }
     #search {
       @include span-columns(10 of 10);
       @include pad(20px 20px 20px 20px);
@@ -130,7 +158,10 @@ header {
       color: #9B9DA0;
       @include media($tablet) {
         @include span-columns(9.33 of 10);
-      };
+      }
+      @include media($desktop) {
+        @include span-columns(5.95 of 5.95);
+      }
     }
     #location {
       @include span-columns(5 of 10);
@@ -151,7 +182,11 @@ header {
       @include media($tablet) {
         @include span-columns(3 of 9.33);
         margin: 12px 8px 15px 0;
-      };
+      }
+      @include media($desktop) {
+        @include span-columns(2 of 5.9);
+        margin: 12px 0px 0px 0px;
+      }
     }
     #budget {
       @include span-columns(5 of 10);
@@ -172,7 +207,11 @@ header {
       @include media($tablet) {
         @include span-columns(3 of 9.33);
         margin: 12px 8px 15px 0;
-      };
+      }
+      @include media($desktop) {
+        @include span-columns(2.1 of 5.9);
+        margin: 12px 0px 0px 8px;
+      }
     }
 
     #submitBtn {
@@ -189,7 +228,11 @@ header {
       @include media($tablet) {
         @include span-columns(3 of 9.33);
         margin: 12px 8px 15px 0;
-      };
+      }
+      @include media($desktop) {
+        @include span-columns(2.1 of 5.9);
+        margin: 12px 0px 0px 8px;
+      }
     }
   }
 }
@@ -223,7 +266,11 @@ header {
     }
   }
 
-
+  article {
+    @include media($desktop) {
+      @include span-columns(4.5 of 12);
+    }
+  }
   img {
     margin-top: 40px;
     border-radius: 3px;
@@ -235,14 +282,21 @@ header {
         width: 100%;
         margin-right: 2%;
         height: 320px;
-      };
-
+      }
+      @include media($desktop) {
+        @include span-columns(2.5 of 4);
+        content:url("../assets/oyea.png");
+        height: 260px;
+      }
   }
 
   .info {
     @include span-columns(8 of 8);
     @include pad(15px 20px 10px 45px);
-
+    @include media($tablet) {
+      @include span-columns(10.5 of 10.5);
+      @include pad(15px 20px 10px 0px);
+    };
     span {
       @include span-columns(8 of 8);
       text-align: left;
@@ -266,12 +320,17 @@ header {
     @include span-columns(3.2 of 8);
     @include shift(0.9);
     @include pad(10px 15px 10px 10px);
-    @include omega()
+    @include omega;
     border-top: 2px solid #E1E2E5;
     border-right: 2px solid #E1E2E5;
     text-align: right;
     line-height: 25px;
     font-family: 'Lato', sans-serif;
+    @include media($tablet) {
+      @include span-columns(5.5 of 10.5);
+      @include omega;
+      @include shift(0);
+    };
     h5 {
       margin: 0;
       font-size: 12px;
@@ -293,6 +352,9 @@ header {
     text-align: left;
     line-height: 25px;
     font-family: 'Lato', sans-serif;
+    @include media($tablet) {
+      @include span-columns(5.25 of 10.5);
+    };
     h5 {
       margin: 0;
       font-size: 12px;
@@ -305,6 +367,44 @@ header {
        color: #4D4F56;
      }
   }
+
+  #eventTwo {
+    @include media($tablet) {
+      @include span-columns(6 of 12);
+    };
+    img {
+      @include media($tablet) {
+        content:url("../assets/saxTablet.png");
+        width: 95%;
+      }
+      @include media($desktop) {
+        content:url("../assets/desktopSax.png");
+        @include span-columns(2.5 of 4);
+        height: 260px;
+      }
+    }
+  }
+
+  #eventThree {
+    @include media($tablet) {
+      @include span-columns(6 of 12);
+      @include omega;
+        // margin-left: 11%;
+    };
+    img {
+      @include media($tablet) {
+        content:url("../assets/churchTablet.png");
+        width: 98%;
+      }
+      @include media($desktop) {
+        content:url("../assets/desktopChurch.png");
+        @include span-columns(2.5 of 4);
+        height: 260px;
+      }
+    }
+  }
+
+
    .discover{
      @include span-columns(12 of 12);
      @include pad(20px 20px 98px 20px);
@@ -321,7 +421,10 @@ header {
     font-size: 15px;
     letter-spacing: 0.5;
     font-family: 'Lato', sans-serif;
-
+    @include media($tablet) {
+      @include span-columns(4 of 12);
+      @include shift(4);
+    };
   }
 }
 
@@ -337,7 +440,17 @@ footer {
   height: 140px;
   color: #B3B5BE;
   font-size: 13px;
+ .socialNav {
+   @include media($tablet) {
+     float: right;
+   };
+ }
 
+ .copyright {
+   @include media($tablet) {
+     float: left;
+   };
+ }
   a {
     color: #B3B5BE;
     margin-right: 14px;
