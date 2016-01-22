@@ -1,5 +1,5 @@
 @import "/Users/fredroberts/dev/Caddis/CaddisTest/bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
-$visual-grid: true !default;
+// $visual-grid: true !default;
 @import "_variables.scss";
 @import "/Users/fredroberts/dev/Caddis/CaddisTest/bower_components/neat/app/assets/stylesheets/_neat.scss";
 
@@ -70,12 +70,25 @@ header {
   }
 }
 
+.overlay {
+  position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #000000;
+   background: rgba(0,0,0,0.30);
+}
+
+
 // HERO -------
 
 .heroImgWrapper {
   background-image: url("../assets/heroPhoto.png");
+  background-color: #000000;
   background-repeat: no-repeat;
   background-position-x: -398px;
+  position: relative;
   top: 0;
   left: 0;
   height: 645px;
@@ -94,7 +107,6 @@ header {
 .hero {
   @include outer-container(12);
   text-align: center;
-
   h1 {
     @include pad(30px 24px 30px 24px);
     margin: 0;
@@ -250,7 +262,11 @@ header {
     @include media($tablet) {
       @include pad(34px 20px 8px 0px);
       text-align: left;
-    };
+    }
+    @include media($desktop) {
+      @include pad(40px 20px 8px 42px);
+      text-align: left;
+    }
     a {
       @include span-columns(4 of 12);
       text-decoration: none;
@@ -262,15 +278,14 @@ header {
       }
       @include media($tablet) {
         @include span-columns(2.5 of 12);
-      };
+      }
+      @include media($desktop) {
+        @include span-columns(1.8 of 12);
+        @include omega;
+      }
     }
   }
 
-  article {
-    @include media($desktop) {
-      @include span-columns(4.5 of 12);
-    }
-  }
   img {
     margin-top: 40px;
     border-radius: 3px;
@@ -284,7 +299,7 @@ header {
         height: 320px;
       }
       @include media($desktop) {
-        @include span-columns(2.5 of 4);
+        @include span-columns(3 of 3);
         content:url("../assets/oyea.png");
         height: 260px;
       }
@@ -342,6 +357,9 @@ header {
        margin: 0;
        font-size: 16px;
        color: #4D4F56;
+       @include media($tablet) {
+         font-size: 18px;
+       };
      }
   }
 
@@ -365,13 +383,29 @@ header {
        margin: 0;
        font-size: 16px;
        color: #4D4F56;
+       @include media($tablet) {
+         font-size: 18px;
+       };
      }
+  }
+
+  #eventOne {
+    @include media($desktop) {
+      @include span-columns(3.5 of 12);
+      @include shift(0.42);
+      margin-right: 5%;
+    }
   }
 
   #eventTwo {
     @include media($tablet) {
       @include span-columns(6 of 12);
-    };
+    }
+    @include media($desktop) {
+      @include span-columns(3.5 of 12);
+      margin-right: 5%;
+    }
+
     img {
       @include media($tablet) {
         content:url("../assets/saxTablet.png");
@@ -379,7 +413,7 @@ header {
       }
       @include media($desktop) {
         content:url("../assets/desktopSax.png");
-        @include span-columns(2.5 of 4);
+        @include span-columns(3 of 3);
         height: 260px;
       }
     }
@@ -389,8 +423,10 @@ header {
     @include media($tablet) {
       @include span-columns(6 of 12);
       @include omega;
-        // margin-left: 11%;
-    };
+    }
+    @include media($desktop) {
+      @include span-columns(3.5 of 12);
+    }
     img {
       @include media($tablet) {
         content:url("../assets/churchTablet.png");
@@ -398,7 +434,7 @@ header {
       }
       @include media($desktop) {
         content:url("../assets/desktopChurch.png");
-        @include span-columns(2.5 of 4);
+        @include span-columns(3 of 3);
         height: 260px;
       }
     }
@@ -424,7 +460,11 @@ header {
     @include media($tablet) {
       @include span-columns(4 of 12);
       @include shift(4);
-    };
+    }
+    @include media($desktop) {
+      @include span-columns(2.5 of 12);
+      @include shift(4.7);
+    }
   }
 }
 

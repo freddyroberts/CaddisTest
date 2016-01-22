@@ -5,25 +5,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  background-image: -moz-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  background-image: -ms-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  background-image: -o-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 68em;
-  opacity: 0.4;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: -1; }
-
 header {
   max-width: 12;
   margin-left: auto;
@@ -109,10 +90,21 @@ header {
           header .nav button:last-child {
             margin-right: 0; } }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background: rgba(0, 0, 0, 0.3); }
+
 .heroImgWrapper {
   background-image: url("../assets/heroPhoto.png");
+  background-color: #000000;
   background-repeat: no-repeat;
   background-position-x: -398px;
+  position: relative;
   top: 0;
   left: 0;
   height: 645px; }
@@ -360,6 +352,10 @@ header {
       .featured .featuredNav {
         padding: 34px 20px 8px 0px;
         text-align: left; } }
+    @media screen and (min-width: 769px) {
+      .featured .featuredNav {
+        padding: 40px 20px 8px 42px;
+        text-align: left; } }
     .featured .featuredNav a {
       float: left;
       display: block;
@@ -381,14 +377,15 @@ header {
           width: 18.96686%; }
           .featured .featuredNav a:last-child {
             margin-right: 0; } }
-  @media screen and (min-width: 769px) {
-    .featured article {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 36.02647%; }
-      .featured article:last-child {
-        margin-right: 0; } }
+      @media screen and (min-width: 769px) {
+        .featured .featuredNav a {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 12.996%;
+          margin-right: 0; }
+          .featured .featuredNav a:last-child {
+            margin-right: 0; } }
   .featured img {
     margin-top: 40px;
     border-radius: 3px;
@@ -403,8 +400,8 @@ header {
     .featured #ampImg {
       float: left;
       display: block;
-      margin-right: 7.42297%;
-      width: 59.71639%;
+      margin-right: 10.1484%;
+      width: 100%;
       content: url("../assets/oyea.png");
       height: 260px; }
       .featured #ampImg:last-child {
@@ -486,6 +483,9 @@ header {
       margin: 0;
       font-size: 16px;
       color: #4D4F56; }
+      @media screen and (min-width: 500px) {
+        .featured .location h4 {
+          font-size: 18px; } }
   .featured .price {
     float: left;
     display: block;
@@ -515,12 +515,34 @@ header {
       margin: 0;
       font-size: 16px;
       color: #4D4F56; }
+      @media screen and (min-width: 500px) {
+        .featured .price h4 {
+          font-size: 18px; } }
+  @media screen and (min-width: 769px) {
+    .featured #eventOne {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 27.49666%;
+      margin-left: 3.58252%;
+      margin-right: 5%; }
+      .featured #eventOne:last-child {
+        margin-right: 0; } }
   @media screen and (min-width: 500px) {
     .featured #eventTwo {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%; }
+      .featured #eventTwo:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 769px) {
+    .featured #eventTwo {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 27.49666%;
+      margin-right: 5%; }
       .featured #eventTwo:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 500px) {
@@ -532,8 +554,8 @@ header {
       content: url("../assets/desktopSax.png");
       float: left;
       display: block;
-      margin-right: 7.42297%;
-      width: 59.71639%;
+      margin-right: 10.1484%;
+      width: 100%;
       height: 260px; }
       .featured #eventTwo img:last-child {
         margin-right: 0; } }
@@ -546,6 +568,14 @@ header {
       margin-right: 0; }
       .featured #eventThree:last-child {
         margin-right: 0; } }
+  @media screen and (min-width: 769px) {
+    .featured #eventThree {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 27.49666%; }
+      .featured #eventThree:last-child {
+        margin-right: 0; } }
   @media screen and (min-width: 500px) {
     .featured #eventThree img {
       content: url("../assets/churchTablet.png");
@@ -555,8 +585,8 @@ header {
       content: url("../assets/desktopChurch.png");
       float: left;
       display: block;
-      margin-right: 7.42297%;
-      width: 59.71639%;
+      margin-right: 10.1484%;
+      width: 100%;
       height: 260px; }
       .featured #eventThree img:last-child {
         margin-right: 0; } }
@@ -592,6 +622,15 @@ header {
         margin-right: 2.35765%;
         width: 31.76157%;
         margin-left: 34.11922%; }
+        .featured #discoverBtn:last-child {
+          margin-right: 0; } }
+    @media screen and (min-width: 769px) {
+      .featured #discoverBtn {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 18.96686%;
+        margin-left: 40.09008%; }
         .featured #discoverBtn:last-child {
           margin-right: 0; } }
 
