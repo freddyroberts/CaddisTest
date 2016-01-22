@@ -33,7 +33,7 @@ header {
     margin-right: 2.35765%;
     width: 57.35098%;
     margin-right: 0;
-    margin-left: 25.58941%; }
+    margin-left: 21.32451%; }
     header .nav:last-child {
       margin-right: 0; }
     @media screen and (min-width: 500px) {
@@ -93,16 +93,21 @@ header {
           display: inline; } }
     header .nav button {
       margin-right: 0;
+      float: left;
+      display: block;
+      margin-right: 4.11092%;
+      width: 40.50805%;
       color: #E3694C;
-      width: 90px;
       height: 40px;
-      margin-left: 10%;
+      margin-left: 17%;
       background: #FFFFFF;
       border: none;
       border-radius: 3px;
       font-family: 'Lato', sans-serif;
       font-size: 13px;
       letter-spacing: 0.5px; }
+      header .nav button:last-child {
+        margin-right: 0; }
       @media screen and (min-width: 500px) {
         header .nav button {
           float: left;

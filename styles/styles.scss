@@ -27,7 +27,7 @@ header {
   .nav {
     @include span-columns(7 of 12);
     @include omega;
-    @include shift(3);
+    @include shift(2.5);
     @include media($tablet) {
       @include span-columns(8 of 12);
       @include shift(2);
@@ -64,10 +64,10 @@ header {
 
     button {
       @include omega;
+      @include span-columns(3 of 7);
       color: #E3694C;
-      width: 90px;
       height: 40px;
-      margin-left: 10%;
+      margin-left: 17%;
       background: #FFFFFF;
       border: none;
       border-radius: 3px;
