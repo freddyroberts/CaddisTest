@@ -7,7 +7,7 @@
 
 // RESPONSIVE BREAKPOINTS
 $tablet: new-breakpoint(min-width 500px 4);
-$desktop: new-breakpoint(min-width 769px max-width 1280px 4);
+$desktop: new-breakpoint(min-width 769px 4);
 
  // HEADER --------
 
@@ -42,7 +42,7 @@ header {
       font-family: 'Lato', sans-serif;
       font-size: 12px;
       text-decoration: none;
-      color: #fff;
+      color: $headerColor;
       line-height: 49px;
       letter-spacing: 0.5px;
       text-align: right;
@@ -64,7 +64,7 @@ header {
 
     button {
       @include omega;
-      color: #E3694C;
+      color: $registerColor;
       width: 90px;
       height: 40px;
       margin-left: 10%;
@@ -130,7 +130,7 @@ header {
     font-weight: lighter;
     font-size: 42px;
     font-family: 'Lato', sans-serif;
-    color: #fff;
+    color: $heroColor;
     letter-spacing: 0.5px;
     @include media($tablet) {
       @include pad(10px 38px 10px 62px);
@@ -183,7 +183,7 @@ header {
       font-family: 'Lato', sans-serif;
       font-size: 15px;
       letter-spacing: 0.5px;
-      color: #9B9DA0;
+      color: $findEventsColor;
       @include media($tablet) {
         @include span-columns(9.33 of 10);
       }
@@ -206,7 +206,7 @@ header {
       font-family: 'Lato', sans-serif;
       font-size: 15px;
       letter-spacing: 0.5px;
-      color: #9B9DA0;
+      color: $findEventsColor;
       @include media($tablet) {
         @include span-columns(3 of 9.33);
         margin: 12px 8px 15px 0;
@@ -231,7 +231,7 @@ header {
       font-family: 'Lato', sans-serif;
       font-size: 15px;
       letter-spacing: 0.5px;
-      color: #9B9DA0;
+      color: $findEventsColor;
       @include media($tablet) {
         @include span-columns(3 of 9.33);
         margin: 12px 8px 15px 0;
@@ -246,13 +246,13 @@ header {
       @include span-columns(10 of 10);
       @include omega;
       height: 50px;
-      background-color: #90C45B;
+      background-color: $findBtnBG;
       border-radius: 3px;
       border: none;
       font-family: 'Lato', sans-serif;
       font-size: 15px;
       letter-spacing: 0.5px;
-      color: #fff;
+      color: $findBtnColor;
       @include media($tablet) {
         @include span-columns(3 of 9.33);
         margin: 12px 8px 15px 0;
@@ -288,9 +288,9 @@ header {
       text-decoration: none;
       font-size: 15px;
       font-family: 'Lato', sans-serif;
-      color: #4D4F56;
+      color: $featuredNavColor;
       &:hover {
-        color: #90C45B;
+        color: $featuredNavHover;
       }
       @include media($tablet) {
         @include span-columns(2.5 of 12);
@@ -316,7 +316,7 @@ header {
       }
       @include media($desktop) {
         @include span-columns(3 of 3);
-        content:url("../assets/oyea.png");
+        content:url("../assets/desktopAmp.png");
         height: 260px;
       }
   }
@@ -331,7 +331,7 @@ header {
     span {
       @include span-columns(8 of 8);
       text-align: left;
-      color: #B3B5BE;
+      color: $eventGenreColor;
       font-size: 12px;
       font-family: 'Lato', sans-serif;
     }
@@ -343,7 +343,7 @@ header {
       text-decoration: none;
       font-family: 'Lato', sans-serif;
       font-size: 18px;
-      color: #E3694C;
+      color: $eventTitleColor;
     }
   }
 
@@ -366,13 +366,13 @@ header {
       margin: 0;
       font-size: 12px;
       font-weight: lighter;
-      color: #B3B5BE;
+      color: $eventLocationColor;
       letter-spacing: 0.5;
     }
      h4 {
        margin: 0;
        font-size: 16px;
-       color: #4D4F56;
+       color: $eventCityColor;
        @include media($tablet) {
          font-size: 18px;
        };
@@ -392,13 +392,13 @@ header {
     h5 {
       margin: 0;
       font-size: 12px;
-      color: #B3B5BE;
+      color: $eventLocationColor;
       letter-spacing: 0.5;
     }
      h4 {
        margin: 0;
        font-size: 16px;
-       color: #4D4F56;
+       color: $eventCityColor;
        @include media($tablet) {
          font-size: 18px;
        };
@@ -469,7 +469,7 @@ header {
     border-radius: 3px;
     border: 1px solid #B3B5BE;
     height: 50px;
-    color: #90C45B;
+    color: $discoverBtnColor;
     font-size: 15px;
     letter-spacing: 0.5;
     font-family: 'Lato', sans-serif;
@@ -494,7 +494,7 @@ footer {
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
   height: 140px;
-  color: #B3B5BE;
+  color: $footerColor;
   font-size: 13px;
   @include media($tablet) {
     line-height: 80px;
@@ -511,7 +511,7 @@ footer {
    };
  }
   a {
-    color: #B3B5BE;
+    color: $footerColor;
     margin-right: 14px;
   }
 
