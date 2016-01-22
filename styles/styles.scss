@@ -7,7 +7,7 @@
 
 // RESPONSIVE BREAKPOINTS
 $tablet: new-breakpoint(min-width 500px 4);
-$desktop: new-breakpoint(min-width 769px 4);
+$desktop: new-breakpoint(min-width 769px max-width 1280px 4);
 
  // HEADER --------
 
@@ -16,6 +16,9 @@ header {
   @include pad(20px 20px 30px 20px);
   @include media($tablet) {
     @include pad(20px 40px 30px 40px);
+  }
+  @include media($desktop) {
+    @include pad(20px 0px 30px 40px);
   }
 
 .logoWrapper {
@@ -29,6 +32,10 @@ header {
       @include span-columns(8 of 12);
       @include shift(2);
     }
+    @include media($desktop) {
+      @include span-columns(6 of 12);
+      @include shift(4);
+    }
     a {
       @include span-columns(3 of 7);
       @include omega;
@@ -38,10 +45,13 @@ header {
       color: #fff;
       line-height: 49px;
       letter-spacing: 0.5px;
+      text-align: right;
       @include media($tablet) {
         @include span-columns(2 of 8);
-        // @include omega;
         text-align: right;
+      }
+      @include media($desktop) {
+        @include span-columns(1.6 of 8);
       }
     }
 
@@ -57,6 +67,7 @@ header {
       color: #E3694C;
       width: 90px;
       height: 40px;
+      margin-left: 10%;
       background: #FFFFFF;
       border: none;
       border-radius: 3px;
@@ -65,6 +76,11 @@ header {
       letter-spacing: 0.5px;
       @include media($tablet) {
         @include span-columns(2 of 8);
+        margin-left: 0;
+      }
+      @include media($desktop) {
+        @include span-columns(1.48 of 8);
+        margin-left: 9%;
       }
     }
   }
@@ -281,7 +297,7 @@ header {
       }
       @include media($desktop) {
         @include span-columns(1.8 of 12);
-        @include omega;
+        // @include omega;
       }
     }
   }
@@ -480,6 +496,9 @@ footer {
   height: 140px;
   color: #B3B5BE;
   font-size: 13px;
+  @include media($tablet) {
+    line-height: 80px;
+  }
  .socialNav {
    @include media($tablet) {
      float: right;

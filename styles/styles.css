@@ -17,6 +17,9 @@ header {
   @media screen and (min-width: 500px) {
     header {
       padding: 20px 40px 30px 40px; } }
+  @media screen and (min-width: 769px) and (max-width: 1280px) {
+    header {
+      padding: 20px 0px 30px 40px; } }
   header .logoWrapper {
     float: left;
     display: block;
@@ -42,6 +45,15 @@ header {
         margin-left: 17.05961%; }
         header .nav:last-child {
           margin-right: 0; } }
+    @media screen and (min-width: 769px) and (max-width: 1280px) {
+      header .nav {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%;
+        margin-left: 34.11922%; }
+        header .nav:last-child {
+          margin-right: 0; } }
     header .nav a {
       float: left;
       display: block;
@@ -53,7 +65,8 @@ header {
       text-decoration: none;
       color: #fff;
       line-height: 49px;
-      letter-spacing: 0.5px; }
+      letter-spacing: 0.5px;
+      text-align: right; }
       header .nav a:last-child {
         margin-right: 0; }
       @media screen and (min-width: 500px) {
@@ -63,6 +76,14 @@ header {
           margin-right: 3.57866%;
           width: 22.316%;
           text-align: right; }
+          header .nav a:last-child {
+            margin-right: 0; } }
+      @media screen and (min-width: 769px) and (max-width: 1280px) {
+        header .nav a {
+          float: left;
+          display: block;
+          margin-right: 3.57866%;
+          width: 17.13707%; }
           header .nav a:last-child {
             margin-right: 0; } }
     header .nav .links {
@@ -75,6 +96,7 @@ header {
       color: #E3694C;
       width: 90px;
       height: 40px;
+      margin-left: 10%;
       background: #FFFFFF;
       border: none;
       border-radius: 3px;
@@ -86,7 +108,17 @@ header {
           float: left;
           display: block;
           margin-right: 3.57866%;
-          width: 22.316%; }
+          width: 22.316%;
+          margin-left: 0; }
+          header .nav button:last-child {
+            margin-right: 0; } }
+      @media screen and (min-width: 769px) and (max-width: 1280px) {
+        header .nav button {
+          float: left;
+          display: block;
+          margin-right: 3.57866%;
+          width: 15.58339%;
+          margin-left: 9%; }
           header .nav button:last-child {
             margin-right: 0; } }
 
@@ -113,7 +145,7 @@ header {
       background-image: url("../assets/heroTablet.png");
       background-position: 0px 0px;
       height: 550px; } }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 769px) and (max-width: 1280px) {
     .heroImgWrapper {
       background-image: url("../assets/heroDesktop.png");
       background-position: 0px 0px;
@@ -140,7 +172,7 @@ header {
     @media screen and (min-width: 500px) {
       .hero h1 {
         padding: 10px 38px 10px 62px; } }
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 769px) and (max-width: 1280px) {
       .hero h1 {
         font-size: 64px;
         line-height: 54px;
@@ -158,7 +190,7 @@ header {
       .hero h3 {
         padding: 15px 38px 45px 62px;
         line-height: 25px; } }
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 769px) and (max-width: 1280px) {
       .hero h3 {
         font-size: 32px;
         line-height: 35px;
@@ -174,7 +206,7 @@ header {
     @media screen and (min-width: 500px) {
       .hero .searchForm {
         margin-left: 11.94173%; } }
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 769px) and (max-width: 1280px) {
       .hero .searchForm {
         float: left;
         display: block;
@@ -208,7 +240,7 @@ header {
           width: 93.10955%; }
           .hero .searchForm #search:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 769px) {
+      @media screen and (min-width: 769px) and (max-width: 1280px) {
         .hero .searchForm #search {
           float: left;
           display: block;
@@ -246,7 +278,7 @@ header {
           margin: 12px 8px 15px 0; }
           .hero .searchForm #location:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 769px) {
+      @media screen and (min-width: 769px) and (max-width: 1280px) {
         .hero .searchForm #location {
           float: left;
           display: block;
@@ -285,7 +317,7 @@ header {
           margin: 12px 8px 15px 0; }
           .hero .searchForm #budget:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 769px) {
+      @media screen and (min-width: 769px) and (max-width: 1280px) {
         .hero .searchForm #budget {
           float: left;
           display: block;
@@ -319,7 +351,7 @@ header {
           margin: 12px 8px 15px 0; }
           .hero .searchForm #submitBtn:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 769px) {
+      @media screen and (min-width: 769px) and (max-width: 1280px) {
         .hero .searchForm #submitBtn {
           float: left;
           display: block;
@@ -352,7 +384,7 @@ header {
       .featured .featuredNav {
         padding: 34px 20px 8px 0px;
         text-align: left; } }
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 769px) and (max-width: 1280px) {
       .featured .featuredNav {
         padding: 40px 20px 8px 42px;
         text-align: left; } }
@@ -377,13 +409,12 @@ header {
           width: 18.96686%; }
           .featured .featuredNav a:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 769px) {
+      @media screen and (min-width: 769px) and (max-width: 1280px) {
         .featured .featuredNav a {
           float: left;
           display: block;
           margin-right: 2.35765%;
-          width: 12.996%;
-          margin-right: 0; }
+          width: 12.996%; }
           .featured .featuredNav a:last-child {
             margin-right: 0; } }
   .featured img {
@@ -396,7 +427,7 @@ header {
       width: 100%;
       margin-right: 2%;
       height: 320px; } }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 769px) and (max-width: 1280px) {
     .featured #ampImg {
       float: left;
       display: block;
@@ -518,7 +549,7 @@ header {
       @media screen and (min-width: 500px) {
         .featured .price h4 {
           font-size: 18px; } }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 769px) and (max-width: 1280px) {
     .featured #eventOne {
       float: left;
       display: block;
@@ -536,7 +567,7 @@ header {
       width: 48.82117%; }
       .featured #eventTwo:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 769px) and (max-width: 1280px) {
     .featured #eventTwo {
       float: left;
       display: block;
@@ -549,7 +580,7 @@ header {
     .featured #eventTwo img {
       content: url("../assets/saxTablet.png");
       width: 95%; } }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 769px) and (max-width: 1280px) {
     .featured #eventTwo img {
       content: url("../assets/desktopSax.png");
       float: left;
@@ -568,7 +599,7 @@ header {
       margin-right: 0; }
       .featured #eventThree:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 769px) and (max-width: 1280px) {
     .featured #eventThree {
       float: left;
       display: block;
@@ -580,7 +611,7 @@ header {
     .featured #eventThree img {
       content: url("../assets/churchTablet.png");
       width: 98%; } }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 769px) and (max-width: 1280px) {
     .featured #eventThree img {
       content: url("../assets/desktopChurch.png");
       float: left;
@@ -624,7 +655,7 @@ header {
         margin-left: 34.11922%; }
         .featured #discoverBtn:last-child {
           margin-right: 0; } }
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 769px) and (max-width: 1280px) {
       .featured #discoverBtn {
         float: left;
         display: block;
@@ -651,6 +682,9 @@ footer {
     clear: both;
     content: "";
     display: table; }
+  @media screen and (min-width: 500px) {
+    footer {
+      line-height: 80px; } }
   @media screen and (min-width: 500px) {
     footer .socialNav {
       float: right; } }
