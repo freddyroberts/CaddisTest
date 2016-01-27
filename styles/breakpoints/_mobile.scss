@@ -11,7 +11,7 @@ header {
     @include span-columns(7 of 12);
     @include omega;
     @include shift(2.5);
-    a {
+    .addEvent {
       @include span-columns(3 of 7);
       @include omega;
       font-family: 'Lato', sans-serif;
@@ -27,13 +27,16 @@ header {
       display: none;
     }
 
-    button {
+    .register {
       @include omega;
       @include span-columns(3 of 7);
+      text-decoration: none;
+      text-align: center;
       color: #E3694C;
       height: 40px;
+      line-height: 38px;
       margin-left: 17%;
-      background: #FFFFFF;
+      background-color:  #FFFFFF;
       border: none;
       border-radius: 3px;
       font-family: 'Lato', sans-serif;
@@ -95,7 +98,7 @@ header {
   .searchForm {
     @include span-columns(10 of 12);
     @include shift(1);
-    #search {
+    .searchInput {
       @include span-columns(10 of 10);
       @include pad(20px 20px 20px 20px);
       @include omega;
@@ -107,7 +110,7 @@ header {
       letter-spacing: 0.5px;
       color: #9B9DA0;
     }
-    #location {
+    .locationInput {
       @include span-columns(5 of 10);
       @include omega();
       @include pad(10px 20px 10px 20px);
@@ -124,7 +127,7 @@ header {
       letter-spacing: 0.5px;
       color: #9B9DA0;
     }
-    #budget {
+    .budgetInput {
       @include span-columns(5 of 10);
       @include omega();
       @include pad(10px 20px 10px 10px);
@@ -142,7 +145,7 @@ header {
       color: #9B9DA0;
     }
 
-    #submitBtn {
+    .submitBtn {
       @include span-columns(10 of 10);
       @include omega;
       height: 50px;
@@ -163,7 +166,7 @@ header {
   @include outer-container(12);
   @include pad();
   text-align: center;
-  .featuredNav {
+  .featuredFilter {
     @include span-columns(12 of 12);
     @include pad(40px 20px 8px 30px);
     text-align: center;
@@ -218,14 +221,15 @@ header {
     text-align: right;
     line-height: 25px;
     font-family: 'Lato', sans-serif;
-    h5 {
+    dt {
       margin: 0;
       font-size: 12px;
+      text-transform: uppercase;
       font-weight: lighter;
       color: #B3B5BE;
       letter-spacing: 0.5;
     }
-     h4 {
+     dd {
        margin: 0;
        font-size: 16px;
        color: #4D4F56;
@@ -239,13 +243,14 @@ header {
     text-align: left;
     line-height: 25px;
     font-family: 'Lato', sans-serif;
-    h5 {
+    dt {
       margin: 0;
       font-size: 12px;
+      text-transform: uppercase;
       color: #B3B5BE;
       letter-spacing: 0.5;
     }
-     h4 {
+     dd {
        margin: 0;
        font-size: 16px;
        color: #4D4F56;
@@ -256,7 +261,7 @@ header {
      @include span-columns(12 of 12);
      @include pad(20px 20px 98px 20px);
    }
-  #discoverBtn {
+  .discoverBtn {
     @include span-columns(6 of 12);
     @include shift(3);
     margin-top: 50px;

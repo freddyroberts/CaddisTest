@@ -13,13 +13,13 @@
     <div class="overlay">
     <header>
         <div class="logoWrapper">
-          <img id="logo" src="assets/caddisLogo.svg" alt="" />
+          <img class="logo" src="assets/caddisLogo.svg" alt="" />
         </div>
         <nav class="nav" role="navigation">
           <a class="links" href="#">Browse</a>
           <a class="links" href="#">Discover</a>
-          <a href="#">Add Event</a>
-          <button href="#" type="button" name="register">Join us</button>
+          <a class="addEvent" href="#">Add Event</a>
+          <a class="register" href="#" type="button" name="register">Join us</a>
         </nav>
     </header>
        <section class="hero">
@@ -28,74 +28,74 @@
            <h3>Discover the top live music events in the Southeast</h3>
          </div>
          <form class="searchForm" action="index.html" method="post" role="search">
-           <input id="search" type="text" name="search" value="" placeholder="Enter your favorite artist or genre">
-           <select id="location"class="dropDown" type="text" name="Location">
+           <input class="searchInput" type="text" name="search" value="" placeholder="Enter your favorite artist or genre">
+           <select class="locationInput" class="dropDown" type="text" name="location">
              <option value="" disabled selected>Location</option>
            </select>
-           <select id="budget" class="dropDown"  type="text" name="budget">
+           <select class="budgetInput" class="dropDown"  type="text" name="budget">
              <option value="" disabled selected>Budget</option>
            </select>
-           <button id="submitBtn" type="submit" name="submitBtn">Find events</button>
+           <button class="submitBtn" type="submit" name="submitBtn">Find events</button>
          </form>
        </section>
        </div>
       </div>
        <main class="featured">
-         <div class="featuredNav">
+         <div class="featuredFilter">
            <a href="#">Most popular</a>
            <a href="#">Coming up</a>
            <a href="#">Near you</a>
          </div>
-         <article class="events" id="eventOne">
-           <img  id="ampImg" src="assets/mobileAmp.png" alt="" />
+         <div class="eventOne">
+           <img  class="ampImg" src="assets/mobileAmp.png" alt="" />
            <div class="info">
-             <span>COUNTRY</span>
-             <a href="#">Kenny Chesney w/ Grace Potter</a>
+             <span>Country</span>
+             <h2><a href="#">Kenny Chesney w/ Grace Potter</a></h2>
            </div>
-           <div class="location">
-             <h5>LOCATION</h5>
-             <h4>Nashville, TN</h4>
-           </div>
-           <div  class="price">
-             <h5>PRICE</h5>
-             <h4>$30-260</h4>
-           </div>
-         </article>
+           <dl class="location">
+             <dt>Location</dt>
+             <dd>Nashville, TN</dd>
+           </dl>
+           <dl  class="price">
+             <dt>Price</dt>
+             <dd>$30-260</dd>
+           </dl>
+         </div>
 
-         <article class="events" id="eventTwo">
+         <div class="eventTwo">
            <img src="assets/mobileSax.png" alt="" />
            <div class="info">
-             <span>JAZZ</span>
-             <a href="#">Gerald Albright Band</a>
+             <span>Jazz</span>
+             <h2><a href="#">Gerald Albright Band</a></h2>
            </div>
-           <div class="location">
-             <h5>LOCATION</h5>
-             <h4>Atlanta, GA</h4>
-           </div>
-           <div class="price">
-             <h5>PRICE</h5>
-             <h4>$15-90</h4>
-           </div>
-         </article>
+           <dl class="location">
+             <dt>Location</dt>
+             <dd>Atlanta, GA</dd>
+           </dl>
+           <dl class="price">
+             <dt>Price</dt>
+             <dd>$15-90</dd>
+           </dl>
+         </div>
 
-         <article class="events" id="eventThree">
+         <div class="eventThree">
            <img src="assets/mobileChurch.png" alt="" />
            <div class="info">
-             <span>ELECTRONIC</span>
-             <a href="#">The Rock Church</a>
+             <span>Electronic</span>
+             <h2><a href="#">The Rock Church</a></h2>
            </div>
-           <div class="location">
-             <h5>LOCATION</h5>
-             <h4>Birmingham, AL</h4>
-           </div>
-           <div class="price">
-             <h5>PRICE</h5>
-             <h4>$20-40</h4>
-           </div>
-         </article>
+           <dl class="location">
+             <dt>Location</dt>
+             <dd>Birmingham, AL</dd>
+           </dl>
+           <dl class="price">
+             <dt>Price</dt>
+             <dd>$20-40</dd>
+           </dl>
+         </div>
 
          <div class="discover">
-           <button id="discoverBtn" type="button" name="button">Discover more</button>
+           <button class="discoverBtn" type="button" name="button">Discover more</button>
          </div>
        </main>
        <footer>

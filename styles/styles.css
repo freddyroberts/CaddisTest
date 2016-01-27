@@ -30,7 +30,7 @@ header {
     margin-left: 21.32451%; }
     header .nav:last-child {
       margin-right: 0; }
-    header .nav a {
+    header .nav .addEvent {
       float: left;
       display: block;
       margin-right: 4.11092%;
@@ -43,26 +43,29 @@ header {
       line-height: 49px;
       letter-spacing: 0.5px;
       text-align: right; }
-      header .nav a:last-child {
+      header .nav .addEvent:last-child {
         margin-right: 0; }
     header .nav .links {
       display: none; }
-    header .nav button {
+    header .nav .register {
       margin-right: 0;
       float: left;
       display: block;
       margin-right: 4.11092%;
       width: 40.50805%;
+      text-decoration: none;
+      text-align: center;
       color: #E3694C;
       height: 40px;
+      line-height: 38px;
       margin-left: 17%;
-      background: #FFFFFF;
+      background-color: #FFFFFF;
       border: none;
       border-radius: 3px;
       font-family: 'Lato', sans-serif;
       font-size: 13px;
       letter-spacing: 0.5px; }
-      header .nav button:last-child {
+      header .nav .register:last-child {
         margin-right: 0; }
 
 .overlay {
@@ -119,7 +122,7 @@ header {
     margin-left: 8.5298%; }
     .hero .searchForm:last-child {
       margin-right: 0; }
-    .hero .searchForm #search {
+    .hero .searchForm .searchInput {
       float: left;
       display: block;
       margin-right: 2.84259%;
@@ -133,9 +136,9 @@ header {
       font-size: 15px;
       letter-spacing: 0.5px;
       color: #9B9DA0; }
-      .hero .searchForm #search:last-child {
+      .hero .searchForm .searchInput:last-child {
         margin-right: 0; }
-    .hero .searchForm #location {
+    .hero .searchForm .locationInput {
       float: left;
       display: block;
       margin-right: 2.84259%;
@@ -154,9 +157,9 @@ header {
       font-size: 15px;
       letter-spacing: 0.5px;
       color: #9B9DA0; }
-      .hero .searchForm #location:last-child {
+      .hero .searchForm .locationInput:last-child {
         margin-right: 0; }
-    .hero .searchForm #budget {
+    .hero .searchForm .budgetInput {
       float: left;
       display: block;
       margin-right: 2.84259%;
@@ -175,9 +178,9 @@ header {
       font-size: 15px;
       letter-spacing: 0.5px;
       color: #9B9DA0; }
-      .hero .searchForm #budget:last-child {
+      .hero .searchForm .budgetInput:last-child {
         margin-right: 0; }
-    .hero .searchForm #submitBtn {
+    .hero .searchForm .submitBtn {
       float: left;
       display: block;
       margin-right: 2.84259%;
@@ -191,7 +194,7 @@ header {
       font-size: 15px;
       letter-spacing: 0.5px;
       color: #fff; }
-      .hero .searchForm #submitBtn:last-child {
+      .hero .searchForm .submitBtn:last-child {
         margin-right: 0; }
 
 .featured {
@@ -204,16 +207,16 @@ header {
     clear: both;
     content: "";
     display: table; }
-  .featured .featuredNav {
+  .featured .featuredFilter {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
     padding: 40px 20px 8px 30px;
     text-align: center; }
-    .featured .featuredNav:last-child {
+    .featured .featuredFilter:last-child {
       margin-right: 0; }
-    .featured .featuredNav a {
+    .featured .featuredFilter a {
       float: left;
       display: block;
       margin-right: 2.35765%;
@@ -222,9 +225,9 @@ header {
       font-size: 15px;
       font-family: 'Lato', sans-serif;
       color: #4D4F56; }
-      .featured .featuredNav a:last-child {
+      .featured .featuredFilter a:last-child {
         margin-right: 0; }
-      .featured .featuredNav a:hover {
+      .featured .featuredFilter a:hover {
         color: #90C45B; }
   .featured img {
     margin-top: 40px;
@@ -278,13 +281,14 @@ header {
     font-family: 'Lato', sans-serif; }
     .featured .location:last-child {
       margin-right: 0; }
-    .featured .location h5 {
+    .featured .location dt {
       margin: 0;
       font-size: 12px;
+      text-transform: uppercase;
       font-weight: lighter;
       color: #B3B5BE;
       letter-spacing: 0.5; }
-    .featured .location h4 {
+    .featured .location dd {
       margin: 0;
       font-size: 16px;
       color: #4D4F56; }
@@ -300,12 +304,13 @@ header {
     font-family: 'Lato', sans-serif; }
     .featured .price:last-child {
       margin-right: 0; }
-    .featured .price h5 {
+    .featured .price dt {
       margin: 0;
       font-size: 12px;
+      text-transform: uppercase;
       color: #B3B5BE;
       letter-spacing: 0.5; }
-    .featured .price h4 {
+    .featured .price dd {
       margin: 0;
       font-size: 16px;
       color: #4D4F56; }
@@ -317,7 +322,7 @@ header {
     padding: 20px 20px 98px 20px; }
     .featured .discover:last-child {
       margin-right: 0; }
-  .featured #discoverBtn {
+  .featured .discoverBtn {
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -332,7 +337,7 @@ header {
     font-size: 15px;
     letter-spacing: 0.5;
     font-family: 'Lato', sans-serif; }
-    .featured #discoverBtn:last-child {
+    .featured .discoverBtn:last-child {
       margin-right: 0; }
 
 footer {
@@ -355,7 +360,7 @@ footer {
   footer a {
     color: #B3B5BE;
     margin-right: 14px; }
-  footer span {
+  footer small {
     margin-right: 24px; }
 
 @media screen and (min-width: 500px) {
@@ -379,13 +384,13 @@ footer {
           margin-right: 0; }
       header .nav .links {
         display: block; }
-      header .nav button {
+      header .nav .register {
         float: left;
         display: block;
         margin-right: 3.57866%;
         width: 22.316%;
         margin-left: 0; }
-        header .nav button:last-child {
+        header .nav .register:last-child {
           margin-right: 0; }
   .heroImgWrapper {
     background-image: url("../assets/heroTablet.png");
@@ -398,48 +403,48 @@ footer {
     line-height: 25px; }
   .hero .searchForm {
     margin-left: 18.12627%; }
-    .hero .searchForm #search {
+    .hero .searchForm .searchInput {
       float: left;
       display: block;
       margin-right: 2.84259%;
       width: 93.10955%; }
-      .hero .searchForm #search:last-child {
+      .hero .searchForm .searchInput:last-child {
         margin-right: 0; }
-    .hero .searchForm #location {
+    .hero .searchForm .locationInput {
       float: left;
       display: block;
       margin-right: 3.05295%;
       width: 30.08305%;
       margin: 12px 8px 15px 0; }
-      .hero .searchForm #location:last-child {
+      .hero .searchForm .locationInput:last-child {
         margin-right: 0; }
-    .hero .searchForm #budget {
+    .hero .searchForm .budgetInput {
       float: left;
       display: block;
       margin-right: 3.05295%;
       width: 30.08305%;
       margin: 12px 8px 15px 0; }
-      .hero .searchForm #budget:last-child {
+      .hero .searchForm .budgetInput:last-child {
         margin-right: 0; }
-    .hero .searchForm #submitBtn {
+    .hero .searchForm .submitBtn {
       float: left;
       display: block;
       margin-right: 3.05295%;
       width: 30.08305%;
       margin: 12px 8px 15px 0; }
-      .hero .searchForm #submitBtn:last-child {
+      .hero .searchForm .submitBtn:last-child {
         margin-right: 0; }
-  .featured .featuredNav {
+  .featured .featuredFilter {
     padding: 34px 20px 8px 0px;
     text-align: left; }
-    .featured .featuredNav a {
+    .featured .featuredFilter a {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 18.96686%; }
-      .featured .featuredNav a:last-child {
+      .featured .featuredFilter a:last-child {
         margin-right: 0; }
-  .featured #ampImg {
+  .featured .ampImg {
     content: url("../assets/tabletAmp.png");
     width: 100%;
     margin-right: 2%;
@@ -461,7 +466,7 @@ footer {
     margin-left: 0%; }
     .featured .location:last-child {
       margin-right: 0; }
-    .featured .location h4 {
+    .featured .location dd {
       font-size: 18px; }
   .featured .price {
     float: left;
@@ -470,36 +475,36 @@ footer {
     width: 48.64822%; }
     .featured .price:last-child {
       margin-right: 0; }
-    .featured .price h4 {
+    .featured .price dd {
       font-size: 18px; }
-  .featured #eventTwo {
+  .featured .eventTwo {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%; }
-    .featured #eventTwo:last-child {
+    .featured .eventTwo:last-child {
       margin-right: 0; }
-    .featured #eventTwo img {
+    .featured .eventTwo img {
       content: url("../assets/saxTablet.png");
       width: 95%; }
-  .featured #eventThree {
+  .featured .eventThree {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
     margin-right: 0; }
-    .featured #eventThree:last-child {
+    .featured .eventThree:last-child {
       margin-right: 0; }
-    .featured #eventThree img {
+    .featured .eventThree img {
       content: url("../assets/churchTablet.png");
       width: 98%; }
-  .featured #discoverBtn {
+  .featured .discoverBtn {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
     margin-left: 34.11922%; }
-    .featured #discoverBtn:last-child {
+    .featured .discoverBtn:last-child {
       margin-right: 0; }
   footer {
     line-height: 80px; }
@@ -526,13 +531,13 @@ footer {
         width: 17.13707%; }
         header .nav a:last-child {
           margin-right: 0; }
-      header .nav button {
+      header .nav .register {
         float: left;
         display: block;
         margin-right: 3.57866%;
         width: 15.58339%;
         margin-left: 9%; }
-        header .nav button:last-child {
+        header .nav .register:last-child {
           margin-right: 0; }
   .heroImgWrapper {
     background-image: url("../assets/heroDesktop.png");
@@ -555,103 +560,103 @@ footer {
     margin-top: 26px; }
     .hero .searchForm:last-child {
       margin-right: 0; }
-    .hero .searchForm #search {
+    .hero .searchForm .searchInput {
       float: left;
       display: block;
       margin-right: 4.87172%;
       width: 100%; }
-      .hero .searchForm #search:last-child {
+      .hero .searchForm .searchInput:last-child {
         margin-right: 0; }
-    .hero .searchForm #location {
+    .hero .searchForm .locationInput {
       float: left;
       display: block;
       margin-right: 4.91503%;
       width: 30.64939%;
       margin: 12px 0px 0px 0px; }
-      .hero .searchForm #location:last-child {
+      .hero .searchForm .locationInput:last-child {
         margin-right: 0; }
-    .hero .searchForm #budget {
+    .hero .searchForm .budgetInput {
       float: left;
       display: block;
       margin-right: 4.91503%;
       width: 32.42761%;
       margin: 12px 0px 0px 8px; }
-      .hero .searchForm #budget:last-child {
+      .hero .searchForm .budgetInput:last-child {
         margin-right: 0; }
-    .hero .searchForm #submitBtn {
+    .hero .searchForm .submitBtn {
       float: left;
       display: block;
       margin-right: 4.91503%;
       width: 32.42761%;
       margin: 12px 0px 0px 8px; }
-      .hero .searchForm #submitBtn:last-child {
+      .hero .searchForm .submitBtn:last-child {
         margin-right: 0; }
-  .featured .featuredNav {
+  .featured .featuredFilter {
     padding: 40px 20px 8px 42px;
     text-align: left; }
-    .featured .featuredNav a {
+    .featured .featuredFilter a {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 12.996%; }
-      .featured .featuredNav a:last-child {
+      .featured .featuredFilter a:last-child {
         margin-right: 0; }
-  .featured #ampImg {
+  .featured .ampImg {
     float: left;
     display: block;
     margin-right: 10.1484%;
     width: 100%;
     content: url("../assets/oyea.png");
     height: 260px; }
-    .featured #ampImg:last-child {
+    .featured .ampImg:last-child {
       margin-right: 0; }
-  .featured #eventOne {
+  .featured .eventOne {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 27.49666%;
     margin-left: 3.58252%;
     margin-right: 5%; }
-    .featured #eventOne:last-child {
+    .featured .eventOne:last-child {
       margin-right: 0; }
-  .featured #eventTwo {
+  .featured .eventTwo {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 27.49666%;
     margin-right: 5%; }
-    .featured #eventTwo:last-child {
+    .featured .eventTwo:last-child {
       margin-right: 0; }
-    .featured #eventTwo img {
+    .featured .eventTwo img {
       content: url("../assets/desktopSax.png");
       float: left;
       display: block;
       margin-right: 10.1484%;
       width: 100%;
       height: 260px; }
-      .featured #eventTwo img:last-child {
+      .featured .eventTwo img:last-child {
         margin-right: 0; }
-  .featured #eventThree {
+  .featured .eventThree {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 27.49666%; }
-    .featured #eventThree:last-child {
+    .featured .eventThree:last-child {
       margin-right: 0; }
-    .featured #eventThree img {
+    .featured .eventThree img {
       content: url("../assets/desktopChurch.png");
       float: left;
       display: block;
       margin-right: 10.1484%;
       width: 100%;
       height: 260px; }
-      .featured #eventThree img:last-child {
+      .featured .eventThree img:last-child {
         margin-right: 0; }
-  .featured #discoverBtn {
+  .featured .discoverBtn {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 18.96686%;
     margin-left: 40.09008%; }
-    .featured #discoverBtn:last-child {
+    .featured .discoverBtn:last-child {
       margin-right: 0; } }

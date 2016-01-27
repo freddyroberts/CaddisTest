@@ -19,7 +19,7 @@ $tablet: new-breakpoint(min-width 500px 4);
         display: block;
       }
 
-      button {
+      .register {
         @include span-columns(2 of 8);
         margin-left: 0;
       }
@@ -45,18 +45,18 @@ $tablet: new-breakpoint(min-width 500px 4);
     .searchForm {
       @include shift(1.4);
 
-      #search {
+      .searchInput {
         @include span-columns(9.33 of 10);
       }
-      #location {
+      .locationInput {
         @include span-columns(3 of 9.33);
         margin: 12px 8px 15px 0;
       }
-      #budget {
+      .budgetInput {
         @include span-columns(3 of 9.33);
         margin: 12px 8px 15px 0;
       }
-      #submitBtn {
+      .submitBtn {
         @include span-columns(3 of 9.33);
         margin: 12px 8px 15px 0;
       }
@@ -66,14 +66,14 @@ $tablet: new-breakpoint(min-width 500px 4);
 
   .featured {
 
-    .featuredNav {
+    .featuredFilter {
       @include pad(34px 20px 8px 0px);
       text-align: left;
       a {
          @include span-columns(2.5 of 12);
       }
     }
-    #ampImg {
+    .ampImg {
       content:url("../assets/tabletAmp.png");
       width: 100%;
       margin-right: 2%;
@@ -87,24 +87,24 @@ $tablet: new-breakpoint(min-width 500px 4);
       @include span-columns(5.5 of 10.5);
       @include omega;
       @include shift(0);
-      h4 {
+      dd {
         font-size: 18px;
       }
     }
     .price {
         @include span-columns(5.25 of 10.5);
-      h4 {
+      dd {
        font-size: 18px;
      }
     }
-    #eventTwo {
+    .eventTwo {
       @include span-columns(6 of 12);
       img {
         content:url("../assets/saxTablet.png");
         width: 95%;
       }
     }
-    #eventThree {
+    .eventThree {
       @include span-columns(6 of 12);
       @include omega;
       img {
@@ -112,7 +112,7 @@ $tablet: new-breakpoint(min-width 500px 4);
         width: 98%;
       }
     }
-    #discoverBtn {
+    .discoverBtn {
       @include span-columns(4 of 12);
       @include shift(4);
     }
