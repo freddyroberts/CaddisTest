@@ -1,0 +1,295 @@
+// HEADER ---
+
+header {
+  @include outer-container(12);
+  @include pad(20px 20px 30px 20px);
+
+.logoWrapper {
+  @include span-columns(2 of 12);
+}
+  .nav {
+    @include span-columns(7 of 12);
+    @include omega;
+    @include shift(2.5);
+    a {
+      @include span-columns(3 of 7);
+      @include omega;
+      font-family: 'Lato', sans-serif;
+      font-size: 12px;
+      text-decoration: none;
+      color: #fff;
+      line-height: 49px;
+      letter-spacing: 0.5px;
+      text-align: right;
+    }
+
+    .links {
+      display: none;
+    }
+
+    button {
+      @include omega;
+      @include span-columns(3 of 7);
+      color: #E3694C;
+      height: 40px;
+      margin-left: 17%;
+      background: #FFFFFF;
+      border: none;
+      border-radius: 3px;
+      font-family: 'Lato', sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+    }
+  }
+}
+
+.overlay {
+  position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #000000;
+   background: rgba(0,0,0,0.30);
+}
+
+
+// HERO -------
+
+.heroImgWrapper {
+  background-image: url("../assets/heroPhoto.png");
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position-x: -398px;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 645px;
+}
+
+.hero {
+  @include outer-container(12);
+  text-align: center;
+  h1 {
+    @include pad(30px 24px 30px 24px);
+    margin: 0;
+    line-height: 46px;
+    font-weight: lighter;
+    font-size: 42px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    letter-spacing: 0.5px;
+  }
+
+  h3 {
+    @include pad(0px 26px 35px 26px);
+    margin: 0;
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+  }
+
+  .searchForm {
+    @include span-columns(10 of 12);
+    @include shift(1);
+    #search {
+      @include span-columns(10 of 10);
+      @include pad(20px 20px 20px 20px);
+      @include omega;
+      height: 50px;
+      border-radius: 3px;
+      border: none;
+      font-family: 'Lato', sans-serif;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      color: #9B9DA0;
+    }
+    #location {
+      @include span-columns(5 of 10);
+      @include omega();
+      @include pad(10px 20px 10px 20px);
+      margin: 15px 8px 15px 0;
+      height: 50px;
+      border-radius: 3px;
+      border: none;
+      -webkit-appearance: none;
+      background-image: url('../assets/Arrow.png');
+      background-repeat: no-repeat;
+      background-position: 82%;
+      font-family: 'Lato', sans-serif;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      color: #9B9DA0;
+    }
+    #budget {
+      @include span-columns(5 of 10);
+      @include omega();
+      @include pad(10px 20px 10px 10px);
+      margin: 15px 0px 15px 0;
+      height: 50px;
+      border-radius: 3px;
+      border: none;
+      -webkit-appearance: none;
+      background-image: url('../assets/Arrow.png');
+      background-repeat: no-repeat;
+      background-position: 82%;
+      font-family: 'Lato', sans-serif;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      color: #9B9DA0;
+    }
+
+    #submitBtn {
+      @include span-columns(10 of 10);
+      @include omega;
+      height: 50px;
+      background-color: #90C45B;
+      border-radius: 3px;
+      border: none;
+      font-family: 'Lato', sans-serif;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      color: #fff;
+    }
+  }
+}
+
+// FEATURED ------
+
+.featured {
+  @include outer-container(12);
+  @include pad();
+  text-align: center;
+  .featuredNav {
+    @include span-columns(12 of 12);
+    @include pad(40px 20px 8px 30px);
+    text-align: center;
+    a {
+      @include span-columns(4 of 12);
+      text-decoration: none;
+      font-size: 15px;
+      font-family: 'Lato', sans-serif;
+      color: #4D4F56;
+      &:hover {
+        color: #90C45B;
+      }
+    }
+  }
+
+  img {
+    margin-top: 40px;
+    border-radius: 3px;
+    height: 262px;
+  }
+
+
+  .info {
+    @include span-columns(8 of 8);
+    @include pad(15px 20px 10px 45px);
+    span {
+      @include span-columns(8 of 8);
+      text-align: left;
+      color: #B3B5BE;
+      font-size: 12px;
+      font-family: 'Lato', sans-serif;
+    }
+    a {
+      @include span-columns(8 of 8);
+      @include omega;
+      text-align: left;
+      line-height: 32px;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+      color: #E3694C;
+    }
+  }
+
+  .location {
+    @include span-columns(3.2 of 8);
+    @include shift(0.9);
+    @include pad(10px 15px 10px 10px);
+    @include omega;
+    border-top: 2px solid #E1E2E5;
+    border-right: 2px solid #E1E2E5;
+    text-align: right;
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+    h5 {
+      margin: 0;
+      font-size: 12px;
+      font-weight: lighter;
+      color: #B3B5BE;
+      letter-spacing: 0.5;
+    }
+     h4 {
+       margin: 0;
+       font-size: 16px;
+       color: #4D4F56;
+     }
+  }
+
+  .price {
+    @include span-columns(3.2 of 8);
+    @include pad(10px 10px 10px 15px);
+    border-top: 2px solid #E1E2E5;
+    text-align: left;
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+    h5 {
+      margin: 0;
+      font-size: 12px;
+      color: #B3B5BE;
+      letter-spacing: 0.5;
+    }
+     h4 {
+       margin: 0;
+       font-size: 16px;
+       color: #4D4F56;
+     }
+  }
+
+   .discover{
+     @include span-columns(12 of 12);
+     @include pad(20px 20px 98px 20px);
+   }
+  #discoverBtn {
+    @include span-columns(6 of 12);
+    @include shift(3);
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #B3B5BE;
+    height: 50px;
+    color: #90C45B;
+    font-size: 15px;
+    letter-spacing: 0.5;
+    font-family: 'Lato', sans-serif;
+  }
+}
+
+// FOOTER --------
+footer {
+  @include outer-container(12);
+  @include pad(35px 20px 46px 45px);
+  text-align: center;
+  line-height: 30px;
+  border-top: 1px solid #E1E2E5;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  height: 140px;
+  color: #B3B5BE;
+  font-size: 13px;
+
+  a {
+    color: #B3B5BE;
+    margin-right: 14px;
+  }
+
+  span {
+    margin-right: 24px;
+  }
+}

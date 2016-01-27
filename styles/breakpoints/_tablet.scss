@@ -1,0 +1,129 @@
+
+$tablet: new-breakpoint(min-width 500px 4);
+
+@include media ($tablet) {
+  // HEADER ---
+  header {
+      @include pad(20px 40px 30px 40px);
+
+    .nav {
+        @include span-columns(8 of 12);
+        @include shift(2);
+
+      a {
+        @include span-columns(2 of 8);
+        text-align: right;
+      }
+
+      .links {
+        display: block;
+      }
+
+      button {
+        @include span-columns(2 of 8);
+        margin-left: 0;
+      }
+    }
+
+  }
+
+  // HERO ---
+  .heroImgWrapper {
+    background-image: url("../assets/heroTablet.png");
+    background-position: 0px 0px;
+    height: 550px;
+  }
+
+  .hero {
+    h1 {
+      @include pad(10px 38px 10px 62px);
+    }
+    h3 {
+      @include pad(15px 38px 45px 62px);
+      line-height: 25px;
+    }
+    .searchForm {
+      @include shift(1.4);
+
+      #search {
+        @include span-columns(9.33 of 10);
+      }
+      #location {
+        @include span-columns(3 of 9.33);
+        margin: 12px 8px 15px 0;
+      }
+      #budget {
+        @include span-columns(3 of 9.33);
+        margin: 12px 8px 15px 0;
+      }
+      #submitBtn {
+        @include span-columns(3 of 9.33);
+        margin: 12px 8px 15px 0;
+      }
+    }
+  }
+  // FEATURED ---
+
+  .featured {
+
+    .featuredNav {
+      @include pad(34px 20px 8px 0px);
+      text-align: left;
+      a {
+         @include span-columns(2.5 of 12);
+      }
+    }
+    #ampImg {
+      content:url("../assets/tabletAmp.png");
+      width: 100%;
+      margin-right: 2%;
+      height: 320px;
+    }
+    .info {
+      @include span-columns(10.5 of 10.5);
+      @include pad(15px 20px 10px 0px);
+    }
+    .location {
+      @include span-columns(5.5 of 10.5);
+      @include omega;
+      @include shift(0);
+      h4 {
+        font-size: 18px;
+      }
+    }
+    .price {
+        @include span-columns(5.25 of 10.5);
+      h4 {
+       font-size: 18px;
+     }
+    }
+    #eventTwo {
+      @include span-columns(6 of 12);
+      img {
+        content:url("../assets/saxTablet.png");
+        width: 95%;
+      }
+    }
+    #eventThree {
+      @include span-columns(6 of 12);
+      @include omega;
+      img {
+        content:url("../assets/churchTablet.png");
+        width: 98%;
+      }
+    }
+    #discoverBtn {
+      @include span-columns(4 of 12);
+      @include shift(4);
+    }
+  }
+  footer {
+    line-height: 80px;
+    .socialNav {
+      float: right;
+    }
+    .copyright {
+      float: left;
+    }
+  }
+}

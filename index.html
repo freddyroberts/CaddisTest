@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" itemscope itemtype='http://schema.org/WebPage'>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="Discover the top live music events in the Southeast" />
     <title>Caddis Test</title>
-    <link rel="stylesheet" href="styles/styles.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <div class="heroImgWrapper">
@@ -13,7 +15,7 @@
         <div class="logoWrapper">
           <img id="logo" src="assets/caddisLogo.svg" alt="" />
         </div>
-        <nav class="nav">
+        <nav class="nav" role="navigation">
           <a class="links" href="#">Browse</a>
           <a class="links" href="#">Discover</a>
           <a href="#">Add Event</a>
@@ -25,7 +27,7 @@
            <h1>Amazing performances near you</h1>
            <h3>Discover the top live music events in the Southeast</h3>
          </div>
-         <form class="searchForm" action="index.html" method="post">
+         <form class="searchForm" action="index.html" method="post" role="search">
            <input id="search" type="text" name="search" value="" placeholder="Enter your favorite artist or genre">
            <select id="location"class="dropDown" type="text" name="Location">
              <option value="" disabled selected>Location</option>
@@ -38,12 +40,12 @@
        </section>
        </div>
       </div>
-       <section class="featured">
-         <nav class="featuredNav">
+       <main class="featured">
+         <div class="featuredNav">
            <a href="#">Most popular</a>
            <a href="#">Coming up</a>
            <a href="#">Near you</a>
-         </nav>
+         </div>
          <article class="events" id="eventOne">
            <img  id="ampImg" src="assets/mobileAmp.png" alt="" />
            <div class="info">
@@ -95,7 +97,7 @@
          <div class="discover">
            <button id="discoverBtn" type="button" name="button">Discover more</button>
          </div>
-       </section>
+       </main>
        <footer>
          <nav class="socialNav">
            <a href="#" ><img src="assets/facebook.svg"></a>

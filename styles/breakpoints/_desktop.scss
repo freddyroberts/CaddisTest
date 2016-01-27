@@ -1,0 +1,100 @@
+
+$desktop: new-breakpoint(min-width 769px max-width 1280px 4);
+
+@include media($desktop) {
+  // HEADER ---
+  header {
+    @include pad(20px 0px 30px 40px);
+    .nav {
+      @include span-columns(6 of 12);
+      @include shift(4);
+      a {
+        @include span-columns(1.6 of 8);
+      }
+      button {
+        @include span-columns(1.48 of 8);
+        margin-left: 9%;
+      }
+    }
+  }
+  // HERO ---
+  .heroImgWrapper {
+    background-image: url("../assets/heroDesktop.png");
+    background-position: 0px 0px;
+    height: 650px;
+  }
+  .hero {
+    h1 {
+      font-size: 64px;
+      line-height: 54px;
+      @include pad(75px 88px 10px 78px);
+    }
+    h3 {
+      font-size: 32px;
+      line-height: 35px;
+      @include pad(15px 38px 45px 62px);
+    }
+    .searchForm {
+      @include span-columns(5.95 of 12);
+      @include shift(3.2);
+      margin-top: 26px;
+      #search {
+        @include span-columns(5.95 of 5.95);
+      }
+      #location {
+        @include span-columns(2 of 5.9);
+        margin: 12px 0px 0px 0px;
+      }
+      #budget {
+        @include span-columns(2.1 of 5.9);
+        margin: 12px 0px 0px 8px;
+      }
+      #submitBtn {
+        @include span-columns(2.1 of 5.9);
+        margin: 12px 0px 0px 8px;
+      }
+    }
+  }
+  // FEATURED ---
+  .featured {
+    .featuredNav {
+      @include pad(40px 20px 8px 42px);
+      text-align: left;;
+      a {
+        @include span-columns(1.8 of 12);
+      }
+    }
+    #ampImg {
+      @include span-columns(3 of 3);
+      content:url("../assets/oyea.png");
+      height: 260px;
+    }
+    #eventOne {
+      @include span-columns(3.5 of 12);
+      @include shift(0.42);
+      margin-right: 5%;
+    }
+    #eventTwo {
+      @include span-columns(3.5 of 12);
+      margin-right: 5%;
+      img {
+        content:url("../assets/desktopSax.png");
+        @include span-columns(3 of 3);
+        height: 260px;
+      }
+    }
+    #eventThree {
+      @include span-columns(3.5 of 12);
+      img {
+        content:url("../assets/desktopChurch.png");
+        @include span-columns(3 of 3);
+        height: 260px;
+      }
+    }
+    #discoverBtn {
+      @include span-columns(2.5 of 12);
+      @include shift(4.7);
+    }
+  }
+
+}
