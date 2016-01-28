@@ -1,9 +1,9 @@
 // HEADER ---
 
-header {
+.header {
   @include outer-container(12);
   @include pad(20px 20px 30px 20px);
-
+  position: relative;
 .logoWrapper {
   @include span-columns(2 of 12);
 }
@@ -23,7 +23,7 @@ header {
       text-align: right;
     }
 
-    .links {
+    .hiddenlinks {
       display: none;
     }
 
@@ -46,34 +46,48 @@ header {
   }
 }
 
-.overlay {
-  position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: #000000;
-   background: rgba(0,0,0,0.30);
-}
+// .overlay {
+//   position: absolute;
+//    top: 0;
+//    left: 0;
+//    width: 100%;
+//    height: 100%;
+//    background-color: #000000;
+//    background: rgba(0,0,0,0.30);
+// }
 
 
 // HERO -------
 
 .heroImgWrapper {
-  background-image: url("../assets/heroPhoto.png");
-  background-color: #000000;
+  background-image: url("../assets/Hero.jpg");
+  background-color: rgba(0, 0, 0, 0.2);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: -398px;
+  background-position: center;
   position: relative;
   top: 0;
   left: 0;
   height: 645px;
+  &::before {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(92, 78, 72, 0.4);
+    z-index: 0;
+  }
 }
+
 
 .hero {
   @include outer-container(12);
   text-align: center;
-  h1 {
+  position: relative;
+  .title {
     @include pad(30px 24px 30px 24px);
     margin: 0;
     line-height: 46px;
@@ -84,7 +98,7 @@ header {
     letter-spacing: 0.5px;
   }
 
-  h3 {
+  .description {
     @include pad(0px 26px 35px 26px);
     margin: 0;
     font-size: 22px;
@@ -136,7 +150,7 @@ header {
       border-radius: 3px;
       border: none;
       -webkit-appearance: none;
-      background-image: url('../assets/Arrow.png');
+      background-image: url('../assets/Arrow.jpg');
       background-repeat: no-repeat;
       background-position: 82%;
       font-family: 'Lato', sans-serif;
@@ -168,22 +182,31 @@ header {
   text-align: center;
   .featuredFilter {
     @include span-columns(12 of 12);
-    @include pad(40px 20px 8px 30px);
+    @include pad(40px 20px 40px 30px);
     text-align: center;
-    a {
+    .featuredLinks {
       @include span-columns(4 of 12);
       text-decoration: none;
       font-size: 15px;
       font-family: 'Lato', sans-serif;
       color: #4D4F56;
+      height: 35px;
       &:hover {
         color: #90C45B;
       }
     }
+    .mostPopular {
+      background-image: url('../assets/Active.svg');
+      background-repeat: no-repeat;
+      background-position: 7px 28px;
+    }
   }
 
-  img {
-    margin-top: 40px;
+
+
+  .artistPhoto {
+    width: 80%;
+    margin-top: 30px;
     border-radius: 3px;
     height: 262px;
   }
@@ -192,14 +215,15 @@ header {
   .info {
     @include span-columns(8 of 8);
     @include pad(15px 20px 10px 45px);
-    span {
+    .genre {
       @include span-columns(8 of 8);
       text-align: left;
       color: #B3B5BE;
       font-size: 12px;
+      text-transform: uppercase;
       font-family: 'Lato', sans-serif;
     }
-    a {
+    .artist {
       @include span-columns(8 of 8);
       @include omega;
       text-align: left;
@@ -221,7 +245,7 @@ header {
     text-align: right;
     line-height: 25px;
     font-family: 'Lato', sans-serif;
-    dt {
+    .location-term {
       margin: 0;
       font-size: 12px;
       text-transform: uppercase;
@@ -229,7 +253,7 @@ header {
       color: #B3B5BE;
       letter-spacing: 0.5;
     }
-     dd {
+     .location-description {
        margin: 0;
        font-size: 16px;
        color: #4D4F56;
@@ -243,14 +267,14 @@ header {
     text-align: left;
     line-height: 25px;
     font-family: 'Lato', sans-serif;
-    dt {
+    .price-term {
       margin: 0;
       font-size: 12px;
       text-transform: uppercase;
       color: #B3B5BE;
       letter-spacing: 0.5;
     }
-     dd {
+     .price-description {
        margin: 0;
        font-size: 16px;
        color: #4D4F56;
@@ -277,7 +301,7 @@ header {
 }
 
 // FOOTER --------
-footer {
+.footer {
   @include outer-container(12);
   @include pad(35px 20px 46px 45px);
   text-align: center;
@@ -294,7 +318,7 @@ footer {
     margin-right: 14px;
   }
 
-  small {
+  .copyright {
     margin-right: 24px;
   }
 }

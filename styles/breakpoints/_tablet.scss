@@ -3,19 +3,19 @@ $tablet: new-breakpoint(min-width 500px 4);
 
 @include media ($tablet) {
   // HEADER ---
-  header {
+  .header {
       @include pad(20px 40px 30px 40px);
 
     .nav {
         @include span-columns(8 of 12);
         @include shift(2);
 
-      a {
+      .links {
         @include span-columns(2 of 8);
         text-align: right;
       }
 
-      .links {
+      .hiddenlinks {
         display: block;
       }
 
@@ -29,16 +29,14 @@ $tablet: new-breakpoint(min-width 500px 4);
 
   // HERO ---
   .heroImgWrapper {
-    background-image: url("../assets/heroTablet.png");
-    background-position: 0px 0px;
     height: 550px;
   }
 
   .hero {
-    h1 {
+    .title {
       @include pad(10px 38px 10px 62px);
     }
-    h3 {
+    .description {
       @include pad(15px 38px 45px 62px);
       line-height: 25px;
     }
@@ -69,12 +67,11 @@ $tablet: new-breakpoint(min-width 500px 4);
     .featuredFilter {
       @include pad(34px 20px 8px 0px);
       text-align: left;
-      a {
+      .featuredLinks {
          @include span-columns(2.5 of 12);
       }
     }
-    .ampImg {
-      content:url("../assets/tabletAmp.png");
+    .artistOne {
       width: 100%;
       margin-right: 2%;
       height: 320px;
@@ -87,28 +84,26 @@ $tablet: new-breakpoint(min-width 500px 4);
       @include span-columns(5.5 of 10.5);
       @include omega;
       @include shift(0);
-      dd {
+      .location-description {
         font-size: 18px;
       }
     }
     .price {
         @include span-columns(5.25 of 10.5);
-      dd {
+      .price-description {
        font-size: 18px;
      }
     }
     .eventTwo {
       @include span-columns(6 of 12);
-      img {
-        content:url("../assets/saxTablet.png");
+      .artistTwo {
         width: 95%;
       }
     }
     .eventThree {
       @include span-columns(6 of 12);
       @include omega;
-      img {
-        content:url("../assets/churchTablet.png");
+      .artistThree {
         width: 98%;
       }
     }
@@ -117,12 +112,12 @@ $tablet: new-breakpoint(min-width 500px 4);
       @include shift(4);
     }
   }
-  footer {
+  .footer {
     line-height: 80px;
     .socialNav {
       float: right;
     }
-    .copyright {
+    .copyrightNav {
       float: left;
     }
   }
