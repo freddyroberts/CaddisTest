@@ -368,7 +368,11 @@ html {
     clear: both;
     content: "";
     display: table; }
-  .footer a {
+  .footer .socialLinks {
+    text-decoration: none;
+    color: #B3B5BE;
+    font-size: 32px; }
+  .footer .policy {
     color: #B3B5BE;
     margin-right: 14px; }
   .footer .copyright {
