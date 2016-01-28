@@ -5,11 +5,14 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+body {
+  margin: 0; }
+
 .header {
   max-width: 12;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px 20px 30px 20px;
+  padding: 1.25rem 1.25rem 1.875rem 1.25rem;
   position: relative; }
   .header::after {
     clear: both;
@@ -38,14 +41,16 @@ html {
       width: 40.50805%;
       margin-right: 0;
       font-family: 'Lato', sans-serif;
-      font-size: 12px;
+      font-size: 0.75rem;
       text-decoration: none;
       color: #fff;
-      line-height: 49px;
-      letter-spacing: 0.5px;
+      line-height: 3.0625em;
+      letter-spacing: 0.5;
       text-align: right; }
       .header .nav .addEvent:last-child {
         margin-right: 0; }
+      .header .nav .addEvent:hover {
+        color: #E3694C; }
     .header .nav .hiddenlinks {
       display: none; }
     .header .nav .register {
@@ -57,17 +62,21 @@ html {
       text-decoration: none;
       text-align: center;
       color: #E3694C;
-      height: 40px;
-      line-height: 38px;
+      height: 2.5rem;
+      line-height: 3.375em;
       margin-left: 17%;
       background-color: #FFFFFF;
       border: none;
-      border-radius: 3px;
+      border-radius: 0.1875rem;
       font-family: 'Lato', sans-serif;
-      font-size: 13px;
-      letter-spacing: 0.5px; }
+      font-size: 0.8125rem;
+      letter-spacing: 0.03125em; }
       .header .nav .register:last-child {
         margin-right: 0; }
+      .header .nav .register:hover {
+        color: #fff;
+        background-color: #E3694C;
+        transition: 0.6s; }
 
 .heroImgWrapper {
   background-image: url("../assets/Hero.jpg");
@@ -78,7 +87,7 @@ html {
   position: relative;
   top: 0;
   left: 0;
-  height: 645px; }
+  height: 40.31rem; }
   .heroImgWrapper::before {
     position: absolute;
     display: block;
@@ -101,23 +110,23 @@ html {
     content: "";
     display: table; }
   .hero .title {
-    padding: 30px 24px 30px 24px;
+    padding: 1.875rem 1.5rem 1.875rem 1.5rem;
     margin: 0;
-    line-height: 46px;
-    font-weight: lighter;
-    font-size: 42px;
+    line-height: 2.875rem;
+    font-weight: 100;
+    font-size: 2.625rem;
     font-family: 'Lato', sans-serif;
     color: #fff;
-    letter-spacing: 0.5px; }
+    letter-spacing: 0.03125em; }
   .hero .description {
-    padding: 0px 26px 35px 26px;
+    padding: 0 1.625rem 2.188rem 1.625rem;
     margin: 0;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-family: 'Lato', sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     color: #fff;
-    line-height: 32px;
-    letter-spacing: 0.5px; }
+    line-height: 1.5em;
+    letter-spacing: 0.03125em; }
   .hero .searchForm {
     float: left;
     display: block;
@@ -131,14 +140,14 @@ html {
       display: block;
       margin-right: 2.84259%;
       width: 100%;
-      padding: 20px 20px 20px 20px;
+      padding: 1.25rem 1.25rem 1.25rem 1.25rem;
       margin-right: 0;
-      height: 50px;
-      border-radius: 3px;
+      height: 3.125rem;
+      border-radius: 0.1875rem;
       border: none;
       font-family: 'Lato', sans-serif;
-      font-size: 15px;
-      letter-spacing: 0.5px;
+      font-size: 0.9375rem;
+      letter-spacing: 0.03125em;
       color: #9B9DA0; }
       .hero .searchForm .searchInput:last-child {
         margin-right: 0; }
@@ -148,58 +157,64 @@ html {
       margin-right: 2.84259%;
       width: 48.57871%;
       margin-right: 0;
-      padding: 10px 20px 10px 20px;
-      margin: 15px 8px 15px 0;
-      height: 50px;
-      border-radius: 3px;
-      border: none;
-      -webkit-appearance: none;
-      background-image: url("../assets/Arrow.png");
-      background-repeat: no-repeat;
-      background-position: 82%;
-      font-family: 'Lato', sans-serif;
-      font-size: 15px;
-      letter-spacing: 0.5px;
-      color: #9B9DA0; }
-      .hero .searchForm .locationInput:last-child {
-        margin-right: 0; }
-    .hero .searchForm .budgetInput {
-      float: left;
-      display: block;
-      margin-right: 2.84259%;
-      width: 48.57871%;
-      margin-right: 0;
-      padding: 10px 20px 10px 10px;
-      margin: 15px 0px 15px 0;
-      height: 50px;
-      border-radius: 3px;
+      padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+      margin: 0.9375rem 0.5rem 0.9375rem 0;
+      height: 3.125rem;
+      border-radius: 0.1875rem;
       border: none;
       -webkit-appearance: none;
       background-image: url("../assets/Arrow.jpg");
       background-repeat: no-repeat;
       background-position: 82%;
       font-family: 'Lato', sans-serif;
-      font-size: 15px;
-      letter-spacing: 0.5px;
+      font-size: 0.9375rem;
+      letter-spacing: 0.03125em;
+      color: #9B9DA0; }
+      .hero .searchForm .locationInput:last-child {
+        margin-right: 0; }
+      .hero .searchForm .locationInput:hover {
+        cursor: pointer; }
+    .hero .searchForm .budgetInput {
+      float: left;
+      display: block;
+      margin-right: 2.84259%;
+      width: 48.57871%;
+      margin-right: 0;
+      padding: 0.625rem 1.25rem 0.625rem 0.625rem;
+      margin: 0.9375rem 0 0.9375rem 0;
+      height: 3.125rem;
+      border-radius: 0.1875rem;
+      border: none;
+      -webkit-appearance: none;
+      background-image: url("../assets/Arrow.jpg");
+      background-repeat: no-repeat;
+      background-position: 82%;
+      font-family: 'Lato', sans-serif;
+      font-size: 0.9375rem;
+      letter-spacing: 0.03125em;
       color: #9B9DA0; }
       .hero .searchForm .budgetInput:last-child {
         margin-right: 0; }
+      .hero .searchForm .budgetInput:hover {
+        cursor: pointer; }
     .hero .searchForm .submitBtn {
       float: left;
       display: block;
       margin-right: 2.84259%;
       width: 100%;
       margin-right: 0;
-      height: 50px;
+      height: 3.125rem;
       background-color: #90C45B;
-      border-radius: 3px;
+      border-radius: 0.1875rem;
       border: none;
       font-family: 'Lato', sans-serif;
-      font-size: 15px;
-      letter-spacing: 0.5px;
+      font-size: 0.9375rem;
+      letter-spacing: 0.03125em;
       color: #fff; }
       .hero .searchForm .submitBtn:last-child {
         margin-right: 0; }
+      .hero .searchForm .submitBtn:hover {
+        cursor: pointer; }
 
 .featured {
   max-width: 12;
@@ -216,7 +231,7 @@ html {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    padding: 40px 20px 40px 30px;
+    padding: 2.5rem 1.25rem 0.5rem 1.875rem;
     text-align: center; }
     .featured .featuredFilter:last-child {
       margin-right: 0; }
@@ -226,10 +241,10 @@ html {
       margin-right: 2.35765%;
       width: 31.76157%;
       text-decoration: none;
-      font-size: 15px;
+      font-size: 0.9375rem;
       font-family: 'Lato', sans-serif;
       color: #4D4F56;
-      height: 35px; }
+      height: 2.188rem; }
       .featured .featuredFilter .featuredLinks:last-child {
         margin-right: 0; }
       .featured .featuredFilter .featuredLinks:hover {
@@ -237,18 +252,18 @@ html {
     .featured .featuredFilter .mostPopular {
       background-image: url("../assets/Active.svg");
       background-repeat: no-repeat;
-      background-position: 7px 28px; }
+      background-position: 0.5rem 1.75rem; }
   .featured .artistPhoto {
     width: 80%;
-    margin-top: 30px;
-    border-radius: 3px;
-    height: 262px; }
+    margin-top: 1.875rem;
+    border-radius: 0.1875rem;
+    height: 16.38rem; }
   .featured .info {
     float: left;
     display: block;
     margin-right: 3.57866%;
     width: 100%;
-    padding: 15px 20px 10px 45px; }
+    padding: 0.9375rem 1.25rem 0.625rem 2.813rem; }
     .featured .info:last-child {
       margin-right: 0; }
     .featured .info .genre {
@@ -258,7 +273,7 @@ html {
       width: 100%;
       text-align: left;
       color: #B3B5BE;
-      font-size: 12px;
+      font-size: 0.75rem;
       text-transform: uppercase;
       font-family: 'Lato', sans-serif; }
       .featured .info .genre:last-child {
@@ -270,10 +285,10 @@ html {
       width: 100%;
       margin-right: 0;
       text-align: left;
-      line-height: 32px;
+      line-height: 2em;
       text-decoration: none;
       font-family: 'Lato', sans-serif;
-      font-size: 18px;
+      font-size: 1.125rem;
       color: #E3694C; }
       .featured .info .artist:last-child {
         margin-right: 0; }
@@ -283,54 +298,54 @@ html {
     margin-right: 3.57866%;
     width: 37.8528%;
     margin-left: 11.6526%;
-    padding: 10px 15px 10px 10px;
+    padding: 0.625rem 0.9375rem 0.625rem 0.625rem;
     margin-right: 0;
-    border-top: 2px solid #E1E2E5;
-    border-right: 2px solid #E1E2E5;
+    border-top: 0.125rem solid #E1E2E5;
+    border-right: 0.125rem solid #E1E2E5;
     text-align: right;
-    line-height: 25px;
+    line-height: 1.5625em;
     font-family: 'Lato', sans-serif; }
     .featured .location:last-child {
       margin-right: 0; }
     .featured .location .location-term {
       margin: 0;
-      font-size: 12px;
+      font-size: 0.75rem;
       text-transform: uppercase;
       font-weight: lighter;
       color: #B3B5BE;
       letter-spacing: 0.5; }
     .featured .location .location-description {
       margin: 0;
-      font-size: 16px;
+      font-size: 1rem;
       color: #4D4F56; }
   .featured .price {
     float: left;
     display: block;
     margin-right: 3.57866%;
     width: 37.8528%;
-    padding: 10px 10px 10px 15px;
-    border-top: 2px solid #E1E2E5;
+    padding: 0.625rem 0.625rem 0.625rem 0.9375rem;
+    border-top: 0.125rem solid #E1E2E5;
     text-align: left;
-    line-height: 25px;
+    line-height: 1.5625em;
     font-family: 'Lato', sans-serif; }
     .featured .price:last-child {
       margin-right: 0; }
     .featured .price .price-term {
       margin: 0;
-      font-size: 12px;
+      font-size: 0.75rem;
       text-transform: uppercase;
       color: #B3B5BE;
       letter-spacing: 0.5; }
     .featured .price .price-description {
       margin: 0;
-      font-size: 16px;
+      font-size: 1rem;
       color: #4D4F56; }
   .featured .discover {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    padding: 20px 20px 98px 20px; }
+    padding: 1.25rem 1.25rem 6.125rem 1.25rem; }
     .featured .discover:last-child {
       margin-right: 0; }
   .featured .discoverBtn {
@@ -339,31 +354,36 @@ html {
     margin-right: 2.35765%;
     width: 48.82117%;
     margin-left: 25.58941%;
-    margin-top: 50px;
+    margin-top: 3.125rem;
     background-color: #fff;
-    border-radius: 3px;
-    border: 1px solid #B3B5BE;
-    height: 50px;
+    border-radius: 0.1875rem;
+    border: 0.0625rem solid #B3B5BE;
+    height: 3.125rem;
     color: #90C45B;
-    font-size: 15px;
+    font-size: 0.9375rem;
     letter-spacing: 0.5;
     font-family: 'Lato', sans-serif; }
     .featured .discoverBtn:last-child {
       margin-right: 0; }
+    .featured .discoverBtn:hover {
+      background-color: #90C45B;
+      color: #fff;
+      transition: 0.6s;
+      cursor: pointer; }
 
 .footer {
   max-width: 12;
   margin-left: auto;
   margin-right: auto;
-  padding: 35px 20px 46px 45px;
+  padding: 2.188rem 1.25rem 2.875rem 2.813rem;
   text-align: center;
-  line-height: 30px;
-  border-top: 1px solid #E1E2E5;
+  line-height: 1.875rem;
+  border-top: 0.0625rem solid #E1E2E5;
   font-family: 'Lato', sans-serif;
-  font-weight: lighter;
-  height: 140px;
+  font-weight: 100;
+  height: 8.75rem;
   color: #B3B5BE;
-  font-size: 13px; }
+  font-size: 0.8125rem; }
   .footer::after {
     clear: both;
     content: "";
@@ -371,16 +391,16 @@ html {
   .footer .socialLinks {
     text-decoration: none;
     color: #B3B5BE;
-    font-size: 32px; }
+    font-size: 2rem; }
   .footer .policy {
     color: #B3B5BE;
-    margin-right: 14px; }
+    margin-right: 0.875rem; }
   .footer .copyright {
-    margin-right: 24px; }
+    margin-right: 1.5rem; }
 
 @media screen and (min-width: 500px) {
   .header {
-    padding: 20px 40px 30px 40px; }
+    padding: 1.25rem 2.5rem 1.875rem 2.5rem; }
     .header .nav {
       float: left;
       display: block;
@@ -394,11 +414,19 @@ html {
         display: block;
         margin-right: 3.57866%;
         width: 22.316%;
-        text-align: right; }
+        text-align: center; }
         .header .nav .links:last-child {
           margin-right: 0; }
       .header .nav .hiddenlinks {
-        display: block; }
+        font-family: 'Lato', sans-serif;
+        font-weight: 100;
+        color: #fff;
+        font-size: 0.8125rem;
+        line-height: 2.6625em;
+        display: block;
+        text-decoration: none; }
+        .header .nav .hiddenlinks:hover {
+          color: #E3694C; }
       .header .nav .register {
         float: left;
         display: block;
@@ -408,14 +436,14 @@ html {
         .header .nav .register:last-child {
           margin-right: 0; }
   .heroImgWrapper {
-    height: 550px; }
+    height: 34.38rem; }
   .hero .title {
-    padding: 10px 38px 10px 62px; }
+    padding: 0.625rem 2.375rem 0.625rem 3.875rem; }
   .hero .description {
-    padding: 15px 38px 45px 62px;
-    line-height: 25px; }
+    padding: 0.9375rem 2.375rem 2.813rem 3.875rem;
+    line-height: 1.5625em; }
   .hero .searchForm {
-    margin-left: 18.12627%; }
+    margin-left: 11.39365%; }
     .hero .searchForm .searchInput {
       float: left;
       display: block;
@@ -428,7 +456,7 @@ html {
       display: block;
       margin-right: 3.05295%;
       width: 30.08305%;
-      margin: 12px 8px 15px 0; }
+      margin: 0.75rem 0.5rem 0.9375rem 0; }
       .hero .searchForm .locationInput:last-child {
         margin-right: 0; }
     .hero .searchForm .budgetInput {
@@ -436,7 +464,7 @@ html {
       display: block;
       margin-right: 3.05295%;
       width: 30.08305%;
-      margin: 12px 8px 15px 0; }
+      margin: 0.75rem 0.5rem 0.9375rem 0; }
       .hero .searchForm .budgetInput:last-child {
         margin-right: 0; }
     .hero .searchForm .submitBtn {
@@ -444,11 +472,11 @@ html {
       display: block;
       margin-right: 3.05295%;
       width: 30.08305%;
-      margin: 12px 8px 15px 0; }
+      margin: 0.75rem 0.5rem 0.9375rem 0; }
       .hero .searchForm .submitBtn:last-child {
         margin-right: 0; }
   .featured .featuredFilter {
-    padding: 34px 20px 8px 0px;
+    padding: 2.125rem 1.25rem 0.5rem 0;
     text-align: left; }
     .featured .featuredFilter .featuredLinks {
       float: left;
@@ -457,16 +485,18 @@ html {
       width: 18.96686%; }
       .featured .featuredFilter .featuredLinks:last-child {
         margin-right: 0; }
+    .featured .featuredFilter .mostPopular {
+      background-position: 0rem 1.75rem; }
   .featured .artistOne {
     width: 100%;
     margin-right: 2%;
-    height: 320px; }
+    height: 20rem; }
   .featured .info {
     float: left;
     display: block;
     margin-right: 2.70356%;
     width: 100%;
-    padding: 15px 20px 10px 0px; }
+    padding: 0.9375rem 1.25rem 0.625rem 0; }
     .featured .info:last-child {
       margin-right: 0; }
   .featured .location {
@@ -479,7 +509,7 @@ html {
     .featured .location:last-child {
       margin-right: 0; }
     .featured .location .location-description {
-      font-size: 18px; }
+      font-size: 1.125rem; }
   .featured .price {
     float: left;
     display: block;
@@ -488,7 +518,7 @@ html {
     .featured .price:last-child {
       margin-right: 0; }
     .featured .price .price-description {
-      font-size: 18px; }
+      font-size: 1.125rem; }
   .featured .eventTwo {
     float: left;
     display: block;
@@ -517,7 +547,7 @@ html {
     .featured .discoverBtn:last-child {
       margin-right: 0; }
   .footer {
-    line-height: 80px; }
+    line-height: 5em; }
     .footer .socialNav {
       float: right; }
     .footer .copyrightNav {
@@ -525,7 +555,7 @@ html {
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
   .header {
-    padding: 20px 0px 30px 40px; }
+    padding: 1.25rem 0 1.875rem 2.5rem; }
     .header .nav {
       float: left;
       display: block;
@@ -550,22 +580,22 @@ html {
         .header .nav .register:last-child {
           margin-right: 0; }
   .heroImgWrapper {
-    height: 650px; }
+    height: 40.63rem; }
   .hero .title {
-    font-size: 64px;
-    line-height: 54px;
-    padding: 75px 88px 10px 78px; }
+    font-size: 4rem;
+    line-height: 1em;
+    padding: 2.688rem 5.5rem 0.625rem 4.875rem; }
   .hero .description {
-    font-size: 32px;
-    line-height: 35px;
-    padding: 15px 38px 45px 62px; }
+    font-size: 2rem;
+    line-height: 1.1875em;
+    padding: 0.9375rem 2.375rem 0.813rem 3.875rem; }
   .hero .searchForm {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.39468%;
     margin-left: 27.29537%;
-    margin-top: 26px; }
+    margin-top: 1.625rem; }
     .hero .searchForm:last-child {
       margin-right: 0; }
     .hero .searchForm .searchInput {
@@ -580,7 +610,7 @@ html {
       display: block;
       margin-right: 4.91503%;
       width: 30.64939%;
-      margin: 12px 0px 0px 0px; }
+      margin: 0.75rem 0 0 0; }
       .hero .searchForm .locationInput:last-child {
         margin-right: 0; }
     .hero .searchForm .budgetInput {
@@ -588,7 +618,7 @@ html {
       display: block;
       margin-right: 4.91503%;
       width: 32.42761%;
-      margin: 12px 0px 0px 8px; }
+      margin: 0.75rem 0 0 2%; }
       .hero .searchForm .budgetInput:last-child {
         margin-right: 0; }
     .hero .searchForm .submitBtn {
@@ -596,11 +626,11 @@ html {
       display: block;
       margin-right: 4.91503%;
       width: 32.42761%;
-      margin: 12px 0px 0px 8px; }
+      margin: 0.75rem 0 0  2.45%; }
       .hero .searchForm .submitBtn:last-child {
         margin-right: 0; }
   .featured .featuredFilter {
-    padding: 40px 20px 8px 42px;
+    padding: 2.5rem 1.25rem 0.5rem 2.625rem;
     text-align: left; }
     .featured .featuredFilter .featuredLinks {
       float: left;
@@ -611,7 +641,7 @@ html {
         margin-right: 0; }
   .featured .artistOne {
     width: 100%;
-    height: 260px; }
+    height: 16.25rem; }
   .featured .eventOne {
     float: left;
     display: block;
@@ -631,7 +661,7 @@ html {
       margin-right: 0; }
     .featured .eventTwo .artistTwo {
       width: 100%;
-      height: 260px; }
+      height: 16.25rem; }
   .featured .eventThree {
     float: left;
     display: block;
@@ -642,7 +672,7 @@ html {
       margin-right: 0; }
     .featured .eventThree .artistThree {
       width: 100%;
-      height: 260px; }
+      height: 16.25rem; }
   .featured .discoverBtn {
     float: left;
     display: block;

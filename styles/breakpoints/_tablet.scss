@@ -4,7 +4,7 @@ $tablet: new-breakpoint(min-width 500px 4);
 @include media ($tablet) {
   // HEADER ---
   .header {
-      @include pad(20px 40px 30px 40px);
+      @include pad(1.25rem 2.5rem 1.875rem 2.5rem);
 
     .nav {
         @include span-columns(8 of 12);
@@ -12,11 +12,20 @@ $tablet: new-breakpoint(min-width 500px 4);
 
       .links {
         @include span-columns(2 of 8);
-        text-align: right;
+        text-align: center;
       }
 
       .hiddenlinks {
+        font-family: 'Lato', sans-serif;
+        font-weight: 100;
+        color: #fff;
+        font-size: 0.8125rem;
+        line-height: 2.6625em;
         display: block;
+        text-decoration: none;
+        &:hover {
+          color: #E3694C;
+        }
       }
 
       .register {
@@ -29,34 +38,34 @@ $tablet: new-breakpoint(min-width 500px 4);
 
   // HERO ---
   .heroImgWrapper {
-    height: 550px;
+    height: 34.38rem;
   }
 
   .hero {
     .title {
-      @include pad(10px 38px 10px 62px);
+      @include pad(0.625rem 2.375rem 0.625rem 3.875rem);
     }
     .description {
-      @include pad(15px 38px 45px 62px);
-      line-height: 25px;
+      @include pad(0.9375rem 2.375rem 2.813rem 3.875rem);
+      line-height: 1.5625em;
     }
     .searchForm {
-      @include shift(1.4);
+      @include shift(0.88);
 
       .searchInput {
         @include span-columns(9.33 of 10);
       }
       .locationInput {
         @include span-columns(3 of 9.33);
-        margin: 12px 8px 15px 0;
+        margin: 0.75rem 0.5rem 0.9375rem 0;
       }
       .budgetInput {
         @include span-columns(3 of 9.33);
-        margin: 12px 8px 15px 0;
+        margin: 0.75rem 0.5rem 0.9375rem 0;
       }
       .submitBtn {
         @include span-columns(3 of 9.33);
-        margin: 12px 8px 15px 0;
+        margin: 0.75rem 0.5rem 0.9375rem 0;
       }
     }
   }
@@ -65,33 +74,36 @@ $tablet: new-breakpoint(min-width 500px 4);
   .featured {
 
     .featuredFilter {
-      @include pad(34px 20px 8px 0px);
+      @include pad(2.125rem 1.25rem 0.5rem 0);
       text-align: left;
       .featuredLinks {
          @include span-columns(2.5 of 12);
+      }
+      .mostPopular {
+        background-position: 0rem 1.75rem;
       }
     }
     .artistOne {
       width: 100%;
       margin-right: 2%;
-      height: 320px;
+      height: 20rem;
     }
     .info {
       @include span-columns(10.5 of 10.5);
-      @include pad(15px 20px 10px 0px);
+      @include pad(0.9375rem 1.25rem 0.625rem 0);
     }
     .location {
       @include span-columns(5.5 of 10.5);
       @include omega;
       @include shift(0);
       .location-description {
-        font-size: 18px;
+        font-size: 1.125rem;
       }
     }
     .price {
         @include span-columns(5.25 of 10.5);
       .price-description {
-       font-size: 18px;
+       font-size: 1.125rem;
      }
     }
     .eventTwo {
@@ -113,7 +125,7 @@ $tablet: new-breakpoint(min-width 500px 4);
     }
   }
   .footer {
-    line-height: 80px;
+    line-height: 5em;
     .socialNav {
       float: right;
     }
