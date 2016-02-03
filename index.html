@@ -2,9 +2,12 @@
 <html lang="en" itemscope itemtype='http://schema.org/WebPage'>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="discription" content="Discover the top live music events in the Southeast" itemprop="description"/>
+
+    <title>Caddis Test</title>
+    <meta name="description" content="Discover the top live music events in the Southeast" itemprop="description">
+
     <meta name="twitter:site" content="@FindBands">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Caddis Test">
@@ -12,38 +15,36 @@
     <meta property="og:title" content="Caddis Band Finder" itemprop="name">
     <meta property="og:description" content="Discover the top live music events in the Southeast">
     <meta property="og:image" content="https://www.caddistest.com/assest/hero.jpg" itemprop="image">
-    <title>Caddis Test</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/fontello.css">
-
   </head>
   <body>
     <div class="heroImgWrapper">
     <header class="header" role="banner">
         <div class="logoWrapper">
-          <img class="logo" src="assets/caddisLogo.svg" alt="" />
+          <img class="logo" src="assets/caddis-logo.svg" alt="Caddis">
         </div>
         <nav class="nav" role="navigation">
           <a class="hiddenlinks links" href="#">Browse</a>
           <a class="hiddenlinks links" href="#">Discover</a>
           <a class="addEvent links" href="#">Add Event</a>
-          <a class="register" href="#" type="button" name="register">Join us</a>
+          <a class="register" href="#">Join us</a>
         </nav>
     </header>
        <section class="hero">
-         <div class="">
+         <div>
            <h1 class="title">Amazing performances near you</h1>
            <h3 class="description">Discover the top live music events in the Southeast</h3>
          </div>
          <form class="searchForm" action="index.html" method="post" role="search">
-           <input class="searchInput" type="text" name="search" value="" placeholder="Enter your favorite artist or genre">
-           <select class="locationInput" class="dropDown" type="text" name="location">
-             <option value="" disabled selected>Location</option>
+           <input class="searchInput" type="text" name="search" placeholder="Enter your favorite artist or genre">
+           <select class="locationInput" class="dropDown" name="location">
+             <option disabled selected>Location</option>
            </select>
-           <select class="budgetInput" class="dropDown"  type="text" name="budget">
-             <option value="" disabled selected>Budget</option>
+           <select class="budgetInput" class="dropDown" name="budget">
+             <option disabled selected>Budget</option>
            </select>
-           <button class="submitBtn" type="submit" name="submitBtn">Find events</button>
+           <button class="submitBtn" type="submit">Find events</button>
          </form>
        </section>
       </div>
@@ -54,7 +55,7 @@
            <a class="featuredLinks nearYou" href="#">Near you</a>
          </div>
          <div class="eventOne events">
-           <img  class="artistPhoto artistOne" src="assets/Chesney.jpg" alt="Kenny Chesney" />
+           <img class="artistPhoto artistOne" src="assets/chesney.jpg" alt="Kenny Chesney">
            <div class="info">
              <span class="genre" >Country</span>
              <h2><a class="artist" href="#">Kenny Chesney w/ Grace Potter</a></h2>
@@ -70,7 +71,7 @@
          </div>
 
          <div class="eventTwo events">
-           <img class="artistPhoto artistTwo" src="assets/GeraldAlbright.jpg" alt="Gerald Albright" />
+           <img class="artistPhoto artistTwo" src="assets/gerald-albright.jpg" alt="Gerald Albright">
            <div class="info">
              <span class="genre" >Jazz</span>
              <h2><a class="artist" href="#">Gerald Albright Band</a></h2>
@@ -86,7 +87,7 @@
          </div>
 
          <div class="eventThree events">
-           <img class="artistPhoto artistThree" src="assets/TheRockChurch.jpg" alt="The Rock Church" />
+           <img class="artistPhoto artistThree" src="assets/the-rock-church.jpg" alt="The Rock Church">
            <div class="info">
              <span class="genre" >Electronic</span>
              <h2><a class="artist" href="#">The Rock Church</a></h2>
@@ -102,7 +103,7 @@
          </div>
 
          <div class="discover">
-           <button class="discoverBtn" type="button" name="button">Discover more</button>
+           <a class="discoverBtn" href="#">Discover more</a>
          </div>
        </main>
        <footer class="footer" role="contentinfo">
@@ -111,8 +112,8 @@
            <a class="socialLinks" href="https://twitter.com"><i  class="icon-twitter-circled"></i></a>
            <a class="socialLinks" href="https://plus.google.com"><i  class="icon-gplus-circled"></i></a>
          </div>
+         <small class="copyright">&copy; 2015 Caddis</small>
          <nav class="copyrightNav">
-          <small class="copyright">&copy 2015 Caddis</small>
           <a class="policy" href="#">Privacy Policy</a>
           <a class="policy" href="#">Terms of Use</a>
         </nav>
