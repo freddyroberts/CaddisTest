@@ -257,17 +257,17 @@ body {
       background-repeat: no-repeat;
       background-position: 0.5rem 1.75rem; }
   .featured .artistOne {
-    background-image: url(../assets/chesney.jpg);
+    background-image: url(../assets/chesney-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .featured .artistTwo {
-    background-image: url(../assets/gerald-albright.jpg);
+    background-image: url(../assets/gerald-albright-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .featured .artistThree {
-    background-image: url(../assets/the-rock-church.jpg);
+    background-image: url(../assets/the-rock-church-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
