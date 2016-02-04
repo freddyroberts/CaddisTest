@@ -50,7 +50,8 @@ body {
       .header .nav .addEvent:last-child {
         margin-right: 0; }
       .header .nav .addEvent:hover {
-        color: #E3694C; }
+        color: #E3694C;
+        transition: 0.6s; }
     .header .nav .hiddenlinks {
       display: none; }
     .header .nav .register {
@@ -113,7 +114,7 @@ body {
     padding: 1.875rem 1.5rem 1.875rem 1.5rem;
     margin: 0;
     line-height: 2.875rem;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 2.625rem;
     font-family: 'Lato', sans-serif;
     color: #fff;
@@ -214,7 +215,9 @@ body {
       .hero .searchForm .submitBtn:last-child {
         margin-right: 0; }
       .hero .searchForm .submitBtn:hover {
-        cursor: pointer; }
+        cursor: pointer;
+        color: #4D4F56;
+        transition: 0.6s; }
 
 .featured {
   max-width: 12;
@@ -253,11 +256,28 @@ body {
       background-image: url("../assets/active.svg");
       background-repeat: no-repeat;
       background-position: 0.5rem 1.75rem; }
+  .featured .artistOne {
+    background-image: url("../assets/chesney.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .featured .artistTwo {
+    background-image: url("../assets/gerald-albright.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .featured .artistThree {
+    background-image: url("../assets/the-rock-church.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
   .featured .artistPhoto {
-    width: 80%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
     margin-top: 1.875rem;
     border-radius: 0.1875rem;
     height: 16.38rem; }
+    .featured .artistPhoto:last-child {
+      margin-right: 0; }
   .featured .info {
     float: left;
     display: block;
@@ -275,7 +295,8 @@ body {
       color: #B3B5BE;
       font-size: 0.75rem;
       text-transform: uppercase;
-      font-family: 'Lato', sans-serif; }
+      font-family: 'Lato', sans-serif;
+      font-weight: 400; }
       .featured .info .genre:last-child {
         margin-right: 0; }
     .featured .info .artist {
@@ -289,9 +310,12 @@ body {
       text-decoration: none;
       font-family: 'Lato', sans-serif;
       font-size: 1.125rem;
+      font-weight: 700;
       color: #E3694C; }
       .featured .info .artist:last-child {
         margin-right: 0; }
+      .featured .info .artist:hover {
+        color: #BB4428; }
   .featured .location {
     float: left;
     display: block;
@@ -300,8 +324,8 @@ body {
     margin-left: 11.6526%;
     padding: 0.625rem 0.9375rem 0.625rem 0.625rem;
     margin-right: 0;
-    border-top: 0.125rem solid #E1E2E5;
-    border-right: 0.125rem solid #E1E2E5;
+    border-top: 1px solid #E1E2E5;
+    border-right: 1px solid #E1E2E5;
     text-align: right;
     line-height: 1.5625em;
     font-family: 'Lato', sans-serif; }
@@ -311,12 +335,13 @@ body {
       margin: 0;
       font-size: 0.75rem;
       text-transform: uppercase;
-      font-weight: lighter;
       color: #B3B5BE;
-      letter-spacing: 0.5; }
+      letter-spacing: 0.5;
+      font-weight: 300; }
     .featured .location .location-description {
       margin: 0;
       font-size: 1rem;
+      font-weight: 400;
       color: #4D4F56; }
   .featured .price {
     float: left;
@@ -324,7 +349,7 @@ body {
     margin-right: 3.57866%;
     width: 37.8528%;
     padding: 0.625rem 0.625rem 0.625rem 0.9375rem;
-    border-top: 0.125rem solid #E1E2E5;
+    border-top: 1px solid #E1E2E5;
     text-align: left;
     line-height: 1.5625em;
     font-family: 'Lato', sans-serif; }
@@ -333,12 +358,14 @@ body {
     .featured .price .price-term {
       margin: 0;
       font-size: 0.75rem;
+      font-weight: 300;
       text-transform: uppercase;
       color: #B3B5BE;
       letter-spacing: 0.5; }
     .featured .price .price-description {
       margin: 0;
       font-size: 1rem;
+      font-weight: 400;
       color: #4D4F56; }
   .featured .discover {
     float: left;
@@ -382,7 +409,7 @@ body {
   line-height: 1.875rem;
   border-top: 0.0625rem solid #E1E2E5;
   font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   height: 8.75rem;
   color: #B3B5BE;
   font-size: 0.8125rem; }
@@ -426,7 +453,7 @@ body {
           margin-right: 0; }
       .header .nav .hiddenlinks {
         font-family: 'Lato', sans-serif;
-        font-weight: 100;
+        font-weight: 300;
         color: #fff;
         font-size: 0.8125rem;
         line-height: 2.6625em;
@@ -560,7 +587,7 @@ body {
     .footer .copyright_policy {
       float: left; } }
 
-@media screen and (min-width: 769px) and (max-width: 1280px) {
+@media screen and (min-width: 769px) {
   .header {
     padding: 1.25rem 0 1.875rem 2.5rem; }
     .header .nav {

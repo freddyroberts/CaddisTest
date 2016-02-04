@@ -1,5 +1,5 @@
 
-$desktop: new-breakpoint(min-width 769px max-width 1280px 4);
+$desktop: new-breakpoint(min-width 769px 4);
 
 @include media($desktop) {
   // HEADER ---
