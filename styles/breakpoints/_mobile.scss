@@ -341,7 +341,7 @@
     &:hover {
       background-color: #90C45B;
       color: $headerColor;
-      transition: 0.6s;
+      transition: 0.7s;
       cursor: pointer;
     }
   }
@@ -366,6 +366,7 @@
      font-size: 2rem;
      &:hover {
        color: #787B8A;
+       transition: 0.7s;
      }
    }
 
