@@ -4,7 +4,7 @@ $desktop: new-breakpoint(min-width 769px 4);
 @include media($desktop) {
   // HEADER ---
   .header {
-    @include pad(1.25rem 0 1.875rem 2.5rem);
+    @include pad(1.25rem 0 1.87rem 2.5rem);
     .nav {
       @include span-columns(6 of 12);
       @include shift(4);
@@ -25,17 +25,17 @@ $desktop: new-breakpoint(min-width 769px 4);
     .title {
       font-size: 4rem;
       line-height: 1em;
-      @include pad(2.688rem 5.5rem 0.625rem 4.875rem);
+      @include pad(2.68rem 5.5rem 0.62rem 4.87rem);
     }
     .description {
       font-size: 2rem;
       line-height: 1.1875em;
-      @include pad(0.9375rem 2.375rem 0.813rem 3.875rem);
+      @include pad(0.93rem 2.37rem 0.81rem 3.87rem);
     }
     .searchForm {
       @include span-columns(5.95 of 12);
       @include shift(3.2);
-      margin-top: 1.625rem;
+      margin-top: 1.62rem;
       .searchInput {
         @include span-columns(5.95 of 5.95);
       }

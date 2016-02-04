@@ -1,125 +1,131 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype='http://schema.org/WebPage'>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Caddis Test</title>
-    <meta name="description" content="Discover the top live music events in the Southeast" itemprop="description">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="twitter:site" content="@FindBands">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Caddis Test">
-    <meta property="og:url" content="https://www.caddistest.com" itemprop="url">
-    <meta property="og:title" content="Caddis Band Finder" itemprop="name">
-    <meta property="og:description" content="Discover the top live music events in the Southeast">
-    <meta property="og:image" content="https://www.caddistest.com/assest/hero.jpg" itemprop="image">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,100' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="styles/styles.css">
-  </head>
-  <body>
-    <div class="heroImgWrapper">
+  <title>Caddis Test</title>
+  <meta name="description" content="Discover the top live music events in the Southeast" itemprop="description">
+
+  <meta name="twitter:site" content="@FindBands">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Caddis Test">
+  <meta property="og:url" content="https://www.caddistest.com" itemprop="url">
+  <meta property="og:title" content="Caddis Band Finder" itemprop="name">
+  <meta property="og:description" content="Discover the top live music events in the Southeast">
+  <meta property="og:image" content="https://www.caddistest.com/assest/hero.jpg" itemprop="image">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <div class="heroImgWrapper">
     <header class="header" role="banner">
-        <div class="logoWrapper">
-          <img class="logo" src="assets/caddis-logo.svg" alt="Caddis">
-        </div>
-        <nav class="nav" role="navigation">
-          <a class="hiddenlinks links" href="#">Browse</a>
-          <a class="hiddenlinks links" href="#">Discover</a>
-          <a class="addEvent links" href="#">Add Event</a>
-          <a class="register" href="#">Join us</a>
-        </nav>
-    </header>
-       <section class="hero">
-         <div>
-           <h1 class="title">Amazing performances near you</h1>
-           <h3 class="description">Discover the top live music events in the Southeast</h3>
-         </div>
-         <form class="searchForm" action="index.html" method="post" role="search">
-           <input class="searchInput" type="text" name="search" placeholder="Enter your favorite artist or genre">
-           <select class="locationInput" class="dropDown" name="location">
-             <option disabled selected>Location</option>
-           </select>
-           <select class="budgetInput" class="dropDown" name="budget">
-             <option disabled selected>Budget</option>
-           </select>
-           <button class="submitBtn" type="submit">Find events</button>
-         </form>
-       </section>
+      <div class="logoWrapper">
+        <img class="logo" src="assets/caddis-logo.svg" alt="Caddis">
       </div>
-       <main class="featured" role="main">
-         <div class="featuredFilter">
-           <a class="featuredLinks mostPopular" href="#">Most popular</a>
-           <a class="featuredLinks comingUp" href="#">Coming up</a>
-           <a class="featuredLinks nearYou" href="#">Near you</a>
-         </div>
-         <div class="eventOne events">
-           <div class="artistPhoto artistOne"></div>
-           <!-- <img class="artistPhoto artistOne" src="assets/chesney.jpg" alt="Kenny Chesney"> -->
-           <div class="info">
-             <span class="genre" >Country</span>
-             <h2><a class="artist" href="#">Kenny Chesney w/ Grace Potter</a></h2>
-           </div>
-           <dl class="location">
-             <dt class="location-term">Location</dt>
-             <dd class="location-description">Nashville, TN</dd>
-           </dl>
-           <dl  class="price">
-             <dt class="price-term">Price</dt>
-             <dd class="price-description">$30-260</dd>
-           </dl>
-         </div>
+      <nav class="nav" role="navigation">
+        <a class="hiddenlinks links" href="#">Browse</a>
+        <a class="hiddenlinks links" href="#">Discover</a>
+        <a class="addEvent links" href="#">Add Event</a>
+        <a class="register" href="#">Join us</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <div>
+        <h1 class="title">Amazing performances near you</h1>
+        <h3 class="description">Discover the top live music events in the Southeast</h3>
+      </div>
+      <form class="searchForm" action="index.html" method="post" role="search">
+        <input class="searchInput" type="text" name="search" placeholder="Enter your favorite artist or genre">
+        <select class="locationInput" class="dropDown" name="location">
+          <option value="Nashille, TN" selected>Nashille</option>
+          <option value="Atlanta, GA" selected>Atlanta</option>
+          <option value="Birmingham, AL" selected>Birmingham</option>
+          <option disabled selected>Location</option>
+        </select>
+        <select class="budgetInput" class="dropDown" name="budget">
+          <option value="$0-$10" selected>$0-$10</option>
+          <option value="$10-$30" selected>$10-$30</option>
+          <option value="$30-$60" selected>$30-$60</option>
+          <option disabled selected>Budget</option>
+        </select>
+        <button class="submitBtn" type="submit">Find events</button>
+      </form>
+    </section>
+  </div>
+  <main class="featured" role="main">
+    <div class="featuredFilter">
+      <a class="featuredLinks mostPopular" href="#">Most popular</a>
+      <a class="featuredLinks comingUp" href="#">Coming up</a>
+      <a class="featuredLinks nearYou" href="#">Near you</a>
+    </div>
+    <div class="eventOne events">
+      <div class="artistPhoto artistOne"></div>
+      <div class="info">
+        <span class="genre">Country</span>
+        <h2><a class="artist" href="#">Kenny Chesney w/ Grace Potter</a></h2>
+      </div>
+      <dl class="location">
+        <dt class="location-term">Location</dt>
+        <dd class="location-description">Nashville, TN</dd>
+      </dl>
+      <dl class="price">
+        <dt class="price-term">Price</dt>
+        <dd class="price-description">$30-260</dd>
+      </dl>
+    </div>
 
-         <div class="eventTwo events">
-           <div class="artistPhoto artistTwo"></div>
-           <!-- <img class="artistPhoto artistTwo" src="assets/gerald-albright.jpg" alt="Gerald Albright"> -->
-           <div class="info">
-             <span class="genre" >Jazz</span>
-             <h2><a class="artist" href="#">Gerald Albright Band</a></h2>
-           </div>
-           <dl class="location">
-             <dt class="location-term">Location</dt>
-             <dd class="location-description">Atlanta, GA</dd>
-           </dl>
-           <dl class="price">
-             <dt class="price-term">Price</dt>
-             <dd class="price-description">$15-90</dd>
-           </dl>
-         </div>
+    <div class="eventTwo events">
+      <div class="artistPhoto artistTwo"></div>
+      <div class="info">
+        <span class="genre">Jazz</span>
+        <h2><a class="artist" href="#">Gerald Albright Band</a></h2>
+      </div>
+      <dl class="location">
+        <dt class="location-term">Location</dt>
+        <dd class="location-description">Atlanta, GA</dd>
+      </dl>
+      <dl class="price">
+        <dt class="price-term">Price</dt>
+        <dd class="price-description">$15-90</dd>
+      </dl>
+    </div>
 
-         <div class="eventThree events">
-           <div class="artistPhoto artistThree"></div>
-           <!-- <img class="artistPhoto artistThree" src="assets/the-rock-church.jpg" alt="The Rock Church"> -->
-           <div class="info">
-             <span class="genre" >Electronic</span>
-             <h2><a class="artist" href="#">The Rock Church</a></h2>
-           </div>
-           <dl class="location">
-             <dt class="location-term">Location</dt>
-             <dd class="location-description">Birmingham, AL</dd>
-           </dl>
-           <dl class="price">
-             <dt class="price-term">Price</dt>
-             <dd class="price-description">$20-40</dd>
-           </dl>
-         </div>
+    <div class="eventThree events">
+      <div class="artistPhoto artistThree"></div>
+      <div class="info">
+        <span class="genre">Electronic</span>
+        <h2><a class="artist" href="#">The Rock Church</a></h2>
+      </div>
+      <dl class="location">
+        <dt class="location-term">Location</dt>
+        <dd class="location-description">Birmingham, AL</dd>
+      </dl>
+      <dl class="price">
+        <dt class="price-term">Price</dt>
+        <dd class="price-description">$20-40</dd>
+      </dl>
+    </div>
 
-         <div class="discover">
-           <a class="discoverBtn" href="#">Discover more</a>
-         </div>
-       </main>
-       <footer class="footer" role="contentinfo">
-         <div class="socialNav">
-           <a class="socialLinks" href="https://www.facebook.com"><i class="icon-facebook-circled"></i></a>
-           <a class="socialLinks" href="https://twitter.com"><i class="icon-twitter-circled"></i></a>
-           <a class="socialLinks" href="https://plus.google.com"><i class="icon-gplus-circled"></i></a>
-         </div>
-           <div class="copyright_policy">
-             <small class="copyright">&copy; 2015 Caddis</small>
-             <a class="policy" href="#">Privacy Policy</a>
-             <a class="policy" href="#">Terms of Use</a>
-           </div>
-       </footer>
-  </body>
+    <div class="discover">
+      <a class="discoverBtn" href="#">Discover more</a>
+    </div>
+  </main>
+  <footer class="footer" role="contentinfo">
+    <div class="socialNav">
+      <a class="socialLinks" href="https://www.facebook.com"><i class="icon-facebook-circled"></i></a>
+      <a class="socialLinks" href="https://twitter.com"><i class="icon-twitter-circled"></i></a>
+      <a class="socialLinks" href="https://plus.google.com"><i class="icon-gplus-circled"></i></a>
+    </div>
+    <div class="copyright_policy">
+      <small class="copyright">&copy; 2015 Caddis</small>
+      <a class="policy" href="#">Privacy Policy</a>
+      <a class="policy" href="#">Terms of Use</a>
+    </div>
+  </footer>
+</body>
+
 </html>

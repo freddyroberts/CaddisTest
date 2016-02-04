@@ -6,7 +6,7 @@
 
 .header {
   @include outer-container(12);
-  @include pad(1.25rem 1.25rem 1.875rem 1.25rem);
+  @include pad(1.25rem 1.25rem 1.87rem 1.25rem);
   position: relative;
 .logoWrapper {
   @include span-columns(2 of 12);
@@ -22,7 +22,7 @@
       font-size: 0.75rem;
       text-decoration: none;
       color: $headerColor;
-      line-height: 3.0625em;
+      line-height: 3.06em;
       letter-spacing: 0.5;
       text-align: right;
       &:hover {
@@ -42,14 +42,14 @@
       text-align: center;
       color: $registerColor;
       height:  2.5rem;
-      line-height: 3.375em;
+      line-height: 3.37em;
       margin-left: 17%;
       background-color:  #FFFFFF;
       border: none;
-      border-radius: 0.1875rem;
+      border-radius: 0.18rem;
       font-family: 'Lato', sans-serif;
-      font-size: 0.8125rem;
-      letter-spacing: 0.03125em;
+      font-size: 0.81rem;
+      letter-spacing: 0.03em;
       &:hover {
         color: $headerColor;
         background-color: #E3694C;
@@ -90,25 +90,25 @@
   text-align: center;
   position: relative;
   .title {
-    @include pad(1.875rem 1.5rem 1.875rem 1.5rem);
+    @include pad(1.87rem 1.5rem 1.87rem 1.5rem);
     margin: 0;
-    line-height: 2.875rem;
+    line-height: 2.87rem;
     font-weight: 300;
-    font-size: 2.625rem;
+    font-size: 2.62rem;
     font-family: 'Lato', sans-serif;
     color: $heroColor;
-    letter-spacing: 0.03125em;
+    letter-spacing: 0.03em;
   }
 
   .description {
-    @include pad(0 1.625rem 2.188rem 1.625rem);
+    @include pad(0 1.62rem 2.18rem 1.62rem);
     margin: 0;
-    font-size: 1.375rem;
+    font-size: 1.37rem;
     font-family: 'Lato', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     color: $heroColor;
     line-height: 1.5em;
-    letter-spacing: 0.03125em;
+    letter-spacing: 0.03em;
   }
 
   .searchForm {
@@ -118,29 +118,29 @@
       @include span-columns(10 of 10);
       @include pad(1.25rem 1.25rem 1.25rem 1.25rem);
       @include omega;
-      height: 3.125rem;
-      border-radius: 0.1875rem;
+      height: 3.12rem;
+      border-radius: 0.18rem;
       border: none;
       font-family: 'Lato', sans-serif;
-      font-size: 0.9375rem;
-      letter-spacing: 0.03125em;
+      font-size: 0.93rem;
+      letter-spacing: 0.03em;
       color: $findEventsColor;
     }
     .locationInput {
       @include span-columns(5 of 10);
       @include omega();
-      @include pad(0.625rem 1.25rem 0.625rem 1.25rem);
-      margin: 0.9375rem 0.5rem 0.9375rem 0;
-      height: 3.125rem;
-      border-radius: 0.1875rem;
+      @include pad(0.62rem 1.25rem 0.62rem 1.25rem);
+      margin: 0.93rem 0.5rem 0.93rem 0;
+      height: 3.12rem;
+      border-radius: 0.18rem;
       border: none;
       -webkit-appearance: none;
       background-image: url('../assets/arrow.jpg');
       background-repeat: no-repeat;
       background-position: 82%;
       font-family: 'Lato', sans-serif;
-      font-size: 0.9375rem;
-      letter-spacing: 0.03125em;
+      font-size: 0.93rem;
+      letter-spacing: 0.03em;
       color: $findEventsColor;
       &:hover {
         cursor: pointer;
@@ -149,18 +149,18 @@
     .budgetInput {
       @include span-columns(5 of 10);
       @include omega();
-      @include pad(0.625rem 1.25rem 0.625rem 0.625rem);
-      margin: 0.9375rem 0 0.9375rem 0;
-      height: 3.125rem;
-      border-radius: 0.1875rem;
+      @include pad(0.62rem 1.25rem 0.62rem 0.62rem);
+      margin: 0.93rem 0 0.93rem 0;
+      height: 3.12rem;
+      border-radius: 0.18rem;
       border: none;
       -webkit-appearance: none;
       background-image: url('../assets/arrow.jpg');
       background-repeat: no-repeat;
       background-position: 82%;
       font-family: 'Lato', sans-serif;
-      font-size: 0.9375rem;
-      letter-spacing: 0.03125em;
+      font-size: 0.93rem;
+      letter-spacing: 0.03em;
       color: $findEventsColor;
       &:hover {
         cursor: pointer;
@@ -170,13 +170,13 @@
     .submitBtn {
       @include span-columns(10 of 10);
       @include omega;
-      height: 3.125rem;
+      height: 3.12rem;
       background-color: #90C45B;
-      border-radius: 0.1875rem;
+      border-radius: 0.18rem;
       border: none;
       font-family: 'Lato', sans-serif;
-      font-size: 0.9375rem;
-      letter-spacing: 0.03125em;
+      font-size: 0.93rem;
+      letter-spacing: 0.03em;
       color: $findBtnColor;
       &:hover {
         cursor: pointer;
@@ -195,15 +195,15 @@
   text-align: center;
   .featuredFilter {
     @include span-columns(12 of 12);
-    @include pad(2.5rem 1.25rem 0.5rem 1.875rem);
+    @include pad(2.5rem 1.25rem 0.5rem 1.87rem);
     text-align: center;
     .featuredLinks {
       @include span-columns(4 of 12);
       text-decoration: none;
-      font-size: 0.9375rem;
+      font-size: 0.93rem;
       font-family: 'Lato', sans-serif;
       color: $featuredNavColor;
-      height: 2.188rem;
+      height: 2.18rem;
       &:hover {
         color: $featuredNavHover;
       }
@@ -219,33 +219,35 @@
     background-image: url('../assets/chesney.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   .artistTwo {
     background-image: url('../assets/gerald-albright.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   .artistThree {
     background-image: url('../assets/the-rock-church.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   .artistPhoto {
-    @include span-columns(12 of 12);
-    // @include shift(0.5);
-    // width: 80%;
-    margin-top: 1.875rem;
-    border-radius: 0.1875rem;
+    @include span-columns(9 of 12);
+    @include shift(1.5);
+    margin-top: 1.87rem;
+    border-radius: 0.18rem;
     height: 16.38rem;
   }
 
 
   .info {
     @include span-columns(8 of 8);
-    @include pad(0.9375rem 1.25rem 0.625rem 2.813rem);
+    @include pad(0.93rem 1.25rem 0.62rem 2.81rem);
     .genre {
       @include span-columns(8 of 8);
       text-align: left;
@@ -259,10 +261,10 @@
       @include span-columns(8 of 8);
       @include omega;
       text-align: left;
-      line-height: 2em;
+      line-height: 1.2em;
       text-decoration: none;
       font-family: 'Lato', sans-serif;
-      font-size: 1.125rem;
+      font-size: 1.12rem;
       font-weight: 700;
       color: $eventTitleColor;
       &:hover {
@@ -274,12 +276,12 @@
   .location {
     @include span-columns(3.2 of 8);
     @include shift(0.9);
-    @include pad(0.625rem 0.9375rem 0.625rem 0.625rem);
+    @include pad(0.62rem 0.93rem 0.62rem 0.62rem);
     @include omega;
     border-top: 1px solid #E1E2E5;
     border-right: 1px solid #E1E2E5;
     text-align: right;
-    line-height: 1.5625em;
+    line-height: 1.56em;
     font-family: 'Lato', sans-serif;
     .location-term {
       margin: 0;
@@ -299,10 +301,10 @@
 
   .price {
     @include span-columns(3.2 of 8);
-    @include pad(0.625rem 0.625rem 0.625rem 0.9375rem);
+    @include pad(0.62rem 0.62rem 0.62rem 0.93rem);
     border-top: 1px solid #E1E2E5;
     text-align: left;
-    line-height: 1.5625em;
+    line-height: 1.56em;
     font-family: 'Lato', sans-serif;
     .price-term {
       margin: 0;
@@ -322,20 +324,20 @@
 
    .discover{
      @include span-columns(12 of 12);
-     @include pad(1.25rem 1.25rem 6.125rem 1.25rem);
+     @include pad(1.25rem 1.25rem 6.12rem 1.25rem);
    }
   .discoverBtn {
     @include span-columns(6 of 12);
     @include shift(3);
-    margin-top: 3.125rem;
+    margin-top: 3.12rem;
     background-color: #fff;
-    border-radius: 0.1875rem;
-    border: 0.0625rem solid #B3B5BE;
-    height: 3.125rem;
+    border-radius: 0.18rem;
+    border: 0.06rem solid #B3B5BE;
+    height: 3.12rem;
     line-height: 3em;
     text-decoration: none;
     color: $discoverBtnColor;
-    font-size: 0.9375rem;
+    font-size: 0.93rem;
     letter-spacing: 0.5;
     font-family: 'Lato', sans-serif;
     &:hover {
@@ -350,15 +352,15 @@
 // FOOTER --------
 .footer {
   @include outer-container(12);
-  @include pad(2.188rem 1.25rem 2.875rem 2.813rem);
+  @include pad(2.18rem 1.25rem 2.87rem 2.81rem);
   text-align: center;
-  line-height: 1.875rem;
-  border-top: 0.0625rem solid #E1E2E5;
+  line-height: 1.87rem;
+  border-top: 0.06rem solid #E1E2E5;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   height: 8.75rem;
   color: $footerColor;
-  font-size: 0.8125rem;
+  font-size: 0.81rem;
 
    .socialLinks {
      text-decoration: none;
@@ -370,10 +372,9 @@
      }
    }
 
-
   .policy {
     color: $footerColor;
-    margin-right: 0.875rem;
+    margin-right: 0.87rem;
     &:hover {
       color: #787B8A;
     }
@@ -381,6 +382,9 @@
 
   .copyright {
     margin-right: 1.5rem;
-    font-size: 0.8125rem;
+    font-size: 0.81rem;
+    &:hover {
+      color: #787B8A;
+    }
   }
 }

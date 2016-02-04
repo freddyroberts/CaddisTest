@@ -12,7 +12,7 @@ body {
   max-width: 12;
   margin-left: auto;
   margin-right: auto;
-  padding: 1.25rem 1.25rem 1.875rem 1.25rem;
+  padding: 1.25rem 1.25rem 1.87rem 1.25rem;
   position: relative; }
   .header::after {
     clear: both;
@@ -44,7 +44,7 @@ body {
       font-size: 0.75rem;
       text-decoration: none;
       color: #fff;
-      line-height: 3.0625em;
+      line-height: 3.06em;
       letter-spacing: 0.5;
       text-align: right; }
       .header .nav .addEvent:last-child {
@@ -64,14 +64,14 @@ body {
       text-align: center;
       color: #E3694C;
       height: 2.5rem;
-      line-height: 3.375em;
+      line-height: 3.37em;
       margin-left: 17%;
       background-color: #FFFFFF;
       border: none;
-      border-radius: 0.1875rem;
+      border-radius: 0.18rem;
       font-family: 'Lato', sans-serif;
-      font-size: 0.8125rem;
-      letter-spacing: 0.03125em; }
+      font-size: 0.81rem;
+      letter-spacing: 0.03em; }
       .header .nav .register:last-child {
         margin-right: 0; }
       .header .nav .register:hover {
@@ -111,23 +111,23 @@ body {
     content: "";
     display: table; }
   .hero .title {
-    padding: 1.875rem 1.5rem 1.875rem 1.5rem;
+    padding: 1.87rem 1.5rem 1.87rem 1.5rem;
     margin: 0;
-    line-height: 2.875rem;
+    line-height: 2.87rem;
     font-weight: 300;
-    font-size: 2.625rem;
+    font-size: 2.62rem;
     font-family: 'Lato', sans-serif;
     color: #fff;
-    letter-spacing: 0.03125em; }
+    letter-spacing: 0.03em; }
   .hero .description {
-    padding: 0 1.625rem 2.188rem 1.625rem;
+    padding: 0 1.62rem 2.18rem 1.62rem;
     margin: 0;
-    font-size: 1.375rem;
+    font-size: 1.37rem;
     font-family: 'Lato', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     color: #fff;
     line-height: 1.5em;
-    letter-spacing: 0.03125em; }
+    letter-spacing: 0.03em; }
   .hero .searchForm {
     float: left;
     display: block;
@@ -143,12 +143,12 @@ body {
       width: 100%;
       padding: 1.25rem 1.25rem 1.25rem 1.25rem;
       margin-right: 0;
-      height: 3.125rem;
-      border-radius: 0.1875rem;
+      height: 3.12rem;
+      border-radius: 0.18rem;
       border: none;
       font-family: 'Lato', sans-serif;
-      font-size: 0.9375rem;
-      letter-spacing: 0.03125em;
+      font-size: 0.93rem;
+      letter-spacing: 0.03em;
       color: #9B9DA0; }
       .hero .searchForm .searchInput:last-child {
         margin-right: 0; }
@@ -158,18 +158,18 @@ body {
       margin-right: 2.84259%;
       width: 48.57871%;
       margin-right: 0;
-      padding: 0.625rem 1.25rem 0.625rem 1.25rem;
-      margin: 0.9375rem 0.5rem 0.9375rem 0;
-      height: 3.125rem;
-      border-radius: 0.1875rem;
+      padding: 0.62rem 1.25rem 0.62rem 1.25rem;
+      margin: 0.93rem 0.5rem 0.93rem 0;
+      height: 3.12rem;
+      border-radius: 0.18rem;
       border: none;
       -webkit-appearance: none;
       background-image: url("../assets/arrow.jpg");
       background-repeat: no-repeat;
       background-position: 82%;
       font-family: 'Lato', sans-serif;
-      font-size: 0.9375rem;
-      letter-spacing: 0.03125em;
+      font-size: 0.93rem;
+      letter-spacing: 0.03em;
       color: #9B9DA0; }
       .hero .searchForm .locationInput:last-child {
         margin-right: 0; }
@@ -181,18 +181,18 @@ body {
       margin-right: 2.84259%;
       width: 48.57871%;
       margin-right: 0;
-      padding: 0.625rem 1.25rem 0.625rem 0.625rem;
-      margin: 0.9375rem 0 0.9375rem 0;
-      height: 3.125rem;
-      border-radius: 0.1875rem;
+      padding: 0.62rem 1.25rem 0.62rem 0.62rem;
+      margin: 0.93rem 0 0.93rem 0;
+      height: 3.12rem;
+      border-radius: 0.18rem;
       border: none;
       -webkit-appearance: none;
       background-image: url("../assets/arrow.jpg");
       background-repeat: no-repeat;
       background-position: 82%;
       font-family: 'Lato', sans-serif;
-      font-size: 0.9375rem;
-      letter-spacing: 0.03125em;
+      font-size: 0.93rem;
+      letter-spacing: 0.03em;
       color: #9B9DA0; }
       .hero .searchForm .budgetInput:last-child {
         margin-right: 0; }
@@ -204,13 +204,13 @@ body {
       margin-right: 2.84259%;
       width: 100%;
       margin-right: 0;
-      height: 3.125rem;
+      height: 3.12rem;
       background-color: #90C45B;
-      border-radius: 0.1875rem;
+      border-radius: 0.18rem;
       border: none;
       font-family: 'Lato', sans-serif;
-      font-size: 0.9375rem;
-      letter-spacing: 0.03125em;
+      font-size: 0.93rem;
+      letter-spacing: 0.03em;
       color: #fff; }
       .hero .searchForm .submitBtn:last-child {
         margin-right: 0; }
@@ -234,7 +234,7 @@ body {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    padding: 2.5rem 1.25rem 0.5rem 1.875rem;
+    padding: 2.5rem 1.25rem 0.5rem 1.87rem;
     text-align: center; }
     .featured .featuredFilter:last-child {
       margin-right: 0; }
@@ -244,10 +244,10 @@ body {
       margin-right: 2.35765%;
       width: 31.76157%;
       text-decoration: none;
-      font-size: 0.9375rem;
+      font-size: 0.93rem;
       font-family: 'Lato', sans-serif;
       color: #4D4F56;
-      height: 2.188rem; }
+      height: 2.18rem; }
       .featured .featuredFilter .featuredLinks:last-child {
         margin-right: 0; }
       .featured .featuredFilter .featuredLinks:hover {
@@ -259,22 +259,26 @@ body {
   .featured .artistOne {
     background-image: url("../assets/chesney.jpg");
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    background-position: center; }
   .featured .artistTwo {
     background-image: url("../assets/gerald-albright.jpg");
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    background-position: center; }
   .featured .artistThree {
     background-image: url("../assets/the-rock-church.jpg");
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    background-position: center; }
   .featured .artistPhoto {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%;
-    margin-top: 1.875rem;
-    border-radius: 0.1875rem;
+    width: 74.41059%;
+    margin-left: 12.79471%;
+    margin-top: 1.87rem;
+    border-radius: 0.18rem;
     height: 16.38rem; }
     .featured .artistPhoto:last-child {
       margin-right: 0; }
@@ -283,7 +287,7 @@ body {
     display: block;
     margin-right: 3.57866%;
     width: 100%;
-    padding: 0.9375rem 1.25rem 0.625rem 2.813rem; }
+    padding: 0.93rem 1.25rem 0.62rem 2.81rem; }
     .featured .info:last-child {
       margin-right: 0; }
     .featured .info .genre {
@@ -306,10 +310,10 @@ body {
       width: 100%;
       margin-right: 0;
       text-align: left;
-      line-height: 2em;
+      line-height: 1.2em;
       text-decoration: none;
       font-family: 'Lato', sans-serif;
-      font-size: 1.125rem;
+      font-size: 1.12rem;
       font-weight: 700;
       color: #E3694C; }
       .featured .info .artist:last-child {
@@ -322,12 +326,12 @@ body {
     margin-right: 3.57866%;
     width: 37.8528%;
     margin-left: 11.6526%;
-    padding: 0.625rem 0.9375rem 0.625rem 0.625rem;
+    padding: 0.62rem 0.93rem 0.62rem 0.62rem;
     margin-right: 0;
     border-top: 1px solid #E1E2E5;
     border-right: 1px solid #E1E2E5;
     text-align: right;
-    line-height: 1.5625em;
+    line-height: 1.56em;
     font-family: 'Lato', sans-serif; }
     .featured .location:last-child {
       margin-right: 0; }
@@ -348,10 +352,10 @@ body {
     display: block;
     margin-right: 3.57866%;
     width: 37.8528%;
-    padding: 0.625rem 0.625rem 0.625rem 0.9375rem;
+    padding: 0.62rem 0.62rem 0.62rem 0.93rem;
     border-top: 1px solid #E1E2E5;
     text-align: left;
-    line-height: 1.5625em;
+    line-height: 1.56em;
     font-family: 'Lato', sans-serif; }
     .featured .price:last-child {
       margin-right: 0; }
@@ -372,7 +376,7 @@ body {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    padding: 1.25rem 1.25rem 6.125rem 1.25rem; }
+    padding: 1.25rem 1.25rem 6.12rem 1.25rem; }
     .featured .discover:last-child {
       margin-right: 0; }
   .featured .discoverBtn {
@@ -381,15 +385,15 @@ body {
     margin-right: 2.35765%;
     width: 48.82117%;
     margin-left: 25.58941%;
-    margin-top: 3.125rem;
+    margin-top: 3.12rem;
     background-color: #fff;
-    border-radius: 0.1875rem;
-    border: 0.0625rem solid #B3B5BE;
-    height: 3.125rem;
+    border-radius: 0.18rem;
+    border: 0.06rem solid #B3B5BE;
+    height: 3.12rem;
     line-height: 3em;
     text-decoration: none;
     color: #90C45B;
-    font-size: 0.9375rem;
+    font-size: 0.93rem;
     letter-spacing: 0.5;
     font-family: 'Lato', sans-serif; }
     .featured .discoverBtn:last-child {
@@ -404,15 +408,15 @@ body {
   max-width: 12;
   margin-left: auto;
   margin-right: auto;
-  padding: 2.188rem 1.25rem 2.875rem 2.813rem;
+  padding: 2.18rem 1.25rem 2.87rem 2.81rem;
   text-align: center;
-  line-height: 1.875rem;
-  border-top: 0.0625rem solid #E1E2E5;
+  line-height: 1.87rem;
+  border-top: 0.06rem solid #E1E2E5;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   height: 8.75rem;
   color: #B3B5BE;
-  font-size: 0.8125rem; }
+  font-size: 0.81rem; }
   .footer::after {
     clear: both;
     content: "";
@@ -426,16 +430,18 @@ body {
       transition: 0.7s; }
   .footer .policy {
     color: #B3B5BE;
-    margin-right: 0.875rem; }
+    margin-right: 0.87rem; }
     .footer .policy:hover {
       color: #787B8A; }
   .footer .copyright {
     margin-right: 1.5rem;
-    font-size: 0.8125rem; }
+    font-size: 0.81rem; }
+    .footer .copyright:hover {
+      color: #787B8A; }
 
 @media screen and (min-width: 500px) {
   .header {
-    padding: 1.25rem 2.5rem 1.875rem 2.5rem; }
+    padding: 1.25rem 2.5rem 1.87rem 2.5rem; }
     .header .nav {
       float: left;
       display: block;
@@ -456,8 +462,8 @@ body {
         font-family: 'Lato', sans-serif;
         font-weight: 300;
         color: #fff;
-        font-size: 0.8125rem;
-        line-height: 2.6625em;
+        font-size: 0.81rem;
+        line-height: 2.66em;
         display: block;
         text-decoration: none; }
         .header .nav .hiddenlinks:hover {
@@ -473,10 +479,10 @@ body {
   .heroImgWrapper {
     height: 34.38rem; }
   .hero .title {
-    padding: 0.625rem 2.375rem 0.625rem 3.875rem; }
+    padding: 0.62rem 2.37rem 0.62rem 3.87rem; }
   .hero .description {
-    padding: 0.9375rem 2.375rem 2.813rem 3.875rem;
-    line-height: 1.5625em; }
+    padding: 0.93rem 2.37rem 2.81rem 3.87rem;
+    line-height: 1.56em; }
   .hero .searchForm {
     margin-left: 11.39365%; }
     .hero .searchForm .searchInput {
@@ -491,7 +497,7 @@ body {
       display: block;
       margin-right: 3.05295%;
       width: 30.08305%;
-      margin: 0.75rem 0.5rem 0.9375rem 0; }
+      margin: 0.75rem 0.5rem 0.93rem 0; }
       .hero .searchForm .locationInput:last-child {
         margin-right: 0; }
     .hero .searchForm .budgetInput {
@@ -499,7 +505,7 @@ body {
       display: block;
       margin-right: 3.05295%;
       width: 30.08305%;
-      margin: 0.75rem 0.5rem 0.9375rem 0; }
+      margin: 0.75rem 0.5rem 0.93rem 0; }
       .hero .searchForm .budgetInput:last-child {
         margin-right: 0; }
     .hero .searchForm .submitBtn {
@@ -507,11 +513,11 @@ body {
       display: block;
       margin-right: 3.05295%;
       width: 30.08305%;
-      margin: 0.75rem 0.5rem 0.9375rem 0; }
+      margin: 0.75rem 0.5rem 0.93rem 0; }
       .hero .searchForm .submitBtn:last-child {
         margin-right: 0; }
   .featured .featuredFilter {
-    padding: 2.125rem 1.25rem 0.5rem 0;
+    padding: 2.12rem 1.25rem 0.5rem 0;
     text-align: left; }
     .featured .featuredFilter .featuredLinks {
       float: left;
@@ -526,12 +532,14 @@ body {
     width: 100%;
     margin-right: 2%;
     height: 20rem; }
+  .featured .artistPhoto {
+    margin-left: 0%; }
   .featured .info {
     float: left;
     display: block;
     margin-right: 2.70356%;
     width: 100%;
-    padding: 0.9375rem 1.25rem 0.625rem 0; }
+    padding: 0.93rem 1.25rem 0.62rem 0; }
     .featured .info:last-child {
       margin-right: 0; }
   .featured .location {
@@ -544,7 +552,7 @@ body {
     .featured .location:last-child {
       margin-right: 0; }
     .featured .location .location-description {
-      font-size: 1.125rem; }
+      font-size: 1.12rem; }
   .featured .price {
     float: left;
     display: block;
@@ -553,7 +561,7 @@ body {
     .featured .price:last-child {
       margin-right: 0; }
     .featured .price .price-description {
-      font-size: 1.125rem; }
+      font-size: 1.12rem; }
   .featured .eventTwo {
     float: left;
     display: block;
@@ -590,7 +598,7 @@ body {
 
 @media screen and (min-width: 769px) {
   .header {
-    padding: 1.25rem 0 1.875rem 2.5rem; }
+    padding: 1.25rem 0 1.87rem 2.5rem; }
     .header .nav {
       float: left;
       display: block;
@@ -619,18 +627,18 @@ body {
   .hero .title {
     font-size: 4rem;
     line-height: 1em;
-    padding: 2.688rem 5.5rem 0.625rem 4.875rem; }
+    padding: 2.68rem 5.5rem 0.62rem 4.87rem; }
   .hero .description {
     font-size: 2rem;
     line-height: 1.1875em;
-    padding: 0.9375rem 2.375rem 0.813rem 3.875rem; }
+    padding: 0.93rem 2.37rem 0.81rem 3.87rem; }
   .hero .searchForm {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.39468%;
     margin-left: 27.29537%;
-    margin-top: 1.625rem; }
+    margin-top: 1.62rem; }
     .hero .searchForm:last-child {
       margin-right: 0; }
     .hero .searchForm .searchInput {

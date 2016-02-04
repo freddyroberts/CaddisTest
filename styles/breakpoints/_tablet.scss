@@ -4,7 +4,7 @@ $tablet: new-breakpoint(min-width 500px 4);
 @include media ($tablet) {
   // HEADER ---
   .header {
-      @include pad(1.25rem 2.5rem 1.875rem 2.5rem);
+      @include pad(1.25rem 2.5rem 1.87rem 2.5rem);
 
     .nav {
         @include span-columns(8 of 12);
@@ -19,8 +19,8 @@ $tablet: new-breakpoint(min-width 500px 4);
         font-family: 'Lato', sans-serif;
         font-weight: 300;
         color: #fff;
-        font-size: 0.8125rem;
-        line-height: 2.6625em;
+        font-size: 0.81rem;
+        line-height: 2.66em;
         display: block;
         text-decoration: none;
         &:hover {
@@ -43,11 +43,11 @@ $tablet: new-breakpoint(min-width 500px 4);
 
   .hero {
     .title {
-      @include pad(0.625rem 2.375rem 0.625rem 3.875rem);
+      @include pad(0.62rem 2.37rem 0.62rem 3.87rem);
     }
     .description {
-      @include pad(0.9375rem 2.375rem 2.813rem 3.875rem);
-      line-height: 1.5625em;
+      @include pad(0.93rem 2.37rem 2.81rem 3.87rem);
+      line-height: 1.56em;
     }
     .searchForm {
       @include shift(0.88);
@@ -57,15 +57,15 @@ $tablet: new-breakpoint(min-width 500px 4);
       }
       .locationInput {
         @include span-columns(3 of 9.33);
-        margin: 0.75rem 0.5rem 0.9375rem 0;
+        margin: 0.75rem 0.5rem 0.93rem 0;
       }
       .budgetInput {
         @include span-columns(3 of 9.33);
-        margin: 0.75rem 0.5rem 0.9375rem 0;
+        margin: 0.75rem 0.5rem 0.93rem 0;
       }
       .submitBtn {
         @include span-columns(3 of 9.33);
-        margin: 0.75rem 0.5rem 0.9375rem 0;
+        margin: 0.75rem 0.5rem 0.93rem 0;
       }
     }
   }
@@ -74,7 +74,7 @@ $tablet: new-breakpoint(min-width 500px 4);
   .featured {
 
     .featuredFilter {
-      @include pad(2.125rem 1.25rem 0.5rem 0);
+      @include pad(2.12rem 1.25rem 0.5rem 0);
       text-align: left;
       .featuredLinks {
          @include span-columns(2.5 of 12);
@@ -88,22 +88,26 @@ $tablet: new-breakpoint(min-width 500px 4);
       margin-right: 2%;
       height: 20rem;
     }
+
+    .artistPhoto {
+      @include shift(0);
+    }
     .info {
       @include span-columns(10.5 of 10.5);
-      @include pad(0.9375rem 1.25rem 0.625rem 0);
+      @include pad(0.93rem 1.25rem 0.62rem 0);
     }
     .location {
       @include span-columns(5.5 of 10.5);
       @include omega;
       @include shift(0);
       .location-description {
-        font-size: 1.125rem;
+        font-size: 1.12rem;
       }
     }
     .price {
         @include span-columns(5.25 of 10.5);
       .price-description {
-       font-size: 1.125rem;
+       font-size: 1.12rem;
      }
     }
     .eventTwo {
