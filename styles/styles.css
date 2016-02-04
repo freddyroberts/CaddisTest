@@ -557,9 +557,7 @@ body {
     line-height: 5em; }
     .footer .socialNav {
       float: right; }
-    .footer .copyright {
-      float: left; }
-    .footer .copyrightNav {
+    .footer .copyright_policy {
       float: left; } }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
