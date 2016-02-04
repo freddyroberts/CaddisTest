@@ -80,7 +80,7 @@ body {
         transition: 0.6s; }
 
 .heroImgWrapper {
-  background-image: url("../assets/hero.jpg");
+  background-image: url(../assets/hero-img.jpg);
   background-color: rgba(0, 0, 0, 0.2);
   background-size: cover;
   background-repeat: no-repeat;
@@ -164,7 +164,7 @@ body {
       border-radius: 0.18rem;
       border: none;
       -webkit-appearance: none;
-      background-image: url("../assets/arrow.jpg");
+      background-image: url(../assets/arrow-down.jpg);
       background-repeat: no-repeat;
       background-position: 82%;
       font-family: 'Lato', sans-serif;
@@ -182,12 +182,12 @@ body {
       width: 48.57871%;
       margin-right: 0;
       padding: 0.62rem 1.25rem 0.62rem 0.62rem;
-      margin: 0.93rem 0 0.93rem 0;
+      margin: 0.93rem 0;
       height: 3.12rem;
       border-radius: 0.18rem;
       border: none;
       -webkit-appearance: none;
-      background-image: url("../assets/arrow.jpg");
+      background-image: url(../assets/arrow-down.jpg);
       background-repeat: no-repeat;
       background-position: 82%;
       font-family: 'Lato', sans-serif;
@@ -253,21 +253,21 @@ body {
       .featured .featuredFilter .featuredLinks:hover {
         color: #90C45B; }
     .featured .featuredFilter .mostPopular {
-      background-image: url("../assets/active.svg");
+      background-image: url(../assets/active-state.svg);
       background-repeat: no-repeat;
       background-position: 0.5rem 1.75rem; }
   .featured .artistOne {
-    background-image: url("../assets/chesney.jpg");
+    background-image: url(../assets/chesney.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .featured .artistTwo {
-    background-image: url("../assets/gerald-albright.jpg");
+    background-image: url(../assets/gerald-albright.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .featured .artistThree {
-    background-image: url("../assets/the-rock-church.jpg");
+    background-image: url(../assets/the-rock-church.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
@@ -527,7 +527,7 @@ body {
       .featured .featuredFilter .featuredLinks:last-child {
         margin-right: 0; }
     .featured .featuredFilter .mostPopular {
-      background-position: 0rem 1.75rem; }
+      background-position: 0 1.75rem; }
   .featured .artistOne {
     width: 100%;
     margin-right: 2%;
@@ -653,7 +653,7 @@ body {
       display: block;
       margin-right: 4.91503%;
       width: 30.64939%;
-      margin: 0.75rem 0 0 0; }
+      margin: 0.75rem 0 0; }
       .hero .searchForm .locationInput:last-child {
         margin-right: 0; }
     .hero .searchForm .budgetInput {
@@ -669,7 +669,7 @@ body {
       display: block;
       margin-right: 4.91503%;
       width: 32.42761%;
-      margin: 0.75rem 0 0  2.45%; }
+      margin: 0.75rem 0 0 2.45%; }
       .hero .searchForm .submitBtn:last-child {
         margin-right: 0; }
   .featured .featuredFilter {

@@ -1,20 +1,15 @@
-
 $tablet: new-breakpoint(min-width 500px 4);
-
 @include media ($tablet) {
   // HEADER ---
   .header {
-      @include pad(1.25rem 2.5rem 1.87rem 2.5rem);
-
+    @include pad(1.25rem 2.5rem 1.87rem 2.5rem);
     .nav {
-        @include span-columns(8 of 12);
-        @include shift(2);
-
+      @include span-columns(8 of 12);
+      @include shift(2);
       .links {
         @include span-columns(2 of 8);
         text-align: center;
       }
-
       .hiddenlinks {
         font-family: 'Lato', sans-serif;
         font-weight: 300;
@@ -27,20 +22,16 @@ $tablet: new-breakpoint(min-width 500px 4);
           color: #E3694C;
         }
       }
-
       .register {
         @include span-columns(2 of 8);
         margin-left: 0;
       }
     }
-
   }
-
   // HERO ---
   .heroImgWrapper {
     height: 34.38rem;
   }
-
   .hero {
     .title {
       @include pad(0.62rem 2.37rem 0.62rem 3.87rem);
@@ -51,7 +42,6 @@ $tablet: new-breakpoint(min-width 500px 4);
     }
     .searchForm {
       @include shift(0.88);
-
       .searchInput {
         @include span-columns(9.33 of 10);
       }
@@ -70,17 +60,15 @@ $tablet: new-breakpoint(min-width 500px 4);
     }
   }
   // FEATURED ---
-
   .featured {
-
     .featuredFilter {
       @include pad(2.12rem 1.25rem 0.5rem 0);
       text-align: left;
       .featuredLinks {
-         @include span-columns(2.5 of 12);
+        @include span-columns(2.5 of 12);
       }
       .mostPopular {
-        background-position: 0rem 1.75rem;
+        background-position: 0 1.75rem;
       }
     }
     .artistOne {
@@ -88,7 +76,6 @@ $tablet: new-breakpoint(min-width 500px 4);
       margin-right: 2%;
       height: 20rem;
     }
-
     .artistPhoto {
       @include shift(0);
     }
@@ -105,10 +92,10 @@ $tablet: new-breakpoint(min-width 500px 4);
       }
     }
     .price {
-        @include span-columns(5.25 of 10.5);
+      @include span-columns(5.25 of 10.5);
       .price-description {
-       font-size: 1.12rem;
-     }
+        font-size: 1.12rem;
+      }
     }
     .eventTwo {
       @include span-columns(6 of 12);

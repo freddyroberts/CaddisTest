@@ -1,6 +1,4 @@
-
 $desktop: new-breakpoint(min-width 769px 4);
-
 @include media($desktop) {
   // HEADER ---
   .header {
@@ -41,7 +39,7 @@ $desktop: new-breakpoint(min-width 769px 4);
       }
       .locationInput {
         @include span-columns(2 of 5.9);
-        margin: 0.75rem 0 0 0;
+        margin: 0.75rem 0 0;
       }
       .budgetInput {
         @include span-columns(2.1 of 5.9);
@@ -49,7 +47,7 @@ $desktop: new-breakpoint(min-width 769px 4);
       }
       .submitBtn {
         @include span-columns(2.1 of 5.9);
-        margin: 0.75rem 0 0  2.45%;
+        margin: 0.75rem 0 0 2.45%;
       }
     }
   }
@@ -57,7 +55,7 @@ $desktop: new-breakpoint(min-width 769px 4);
   .featured {
     .featuredFilter {
       @include pad(2.5rem 1.25rem 0.5rem 2.625rem);
-      text-align: left;;
+      text-align: left;
       .featuredLinks {
         @include span-columns(1.8 of 12);
       }
@@ -92,5 +90,4 @@ $desktop: new-breakpoint(min-width 769px 4);
       @include shift(4.7);
     }
   }
-
 }

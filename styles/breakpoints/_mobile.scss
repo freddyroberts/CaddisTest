@@ -1,16 +1,14 @@
- body {
-   margin: 0;
- }
-
+body {
+  margin: 0;
+}
 // HEADER ---
-
 .header {
   @include outer-container(12);
   @include pad(1.25rem 1.25rem 1.87rem 1.25rem);
   position: relative;
-.logoWrapper {
-  @include span-columns(2 of 12);
-}
+  .logoWrapper {
+    @include span-columns(2 of 12);
+  }
   .nav {
     @include span-columns(7 of 12);
     @include omega;
@@ -30,21 +28,19 @@
         transition: 0.6s;
       }
     }
-
     .hiddenlinks {
       display: none;
     }
-
     .register {
       @include omega;
       @include span-columns(3 of 7);
       text-decoration: none;
       text-align: center;
       color: $registerColor;
-      height:  2.5rem;
+      height: 2.5rem;
       line-height: 3.37em;
       margin-left: 17%;
-      background-color:  #FFFFFF;
+      background-color: #FFFFFF;
       border: none;
       border-radius: 0.18rem;
       font-family: 'Lato', sans-serif;
@@ -58,11 +54,9 @@
     }
   }
 }
-
 // HERO -------
-
 .heroImgWrapper {
-  background-image: url("../assets/hero.jpg");
+  background-image: url(../assets/hero-img.jpg);
   background-color: rgba(0, 0, 0, 0.2);
   background-size: cover;
   background-repeat: no-repeat;
@@ -83,8 +77,6 @@
     z-index: 0;
   }
 }
-
-
 .hero {
   @include outer-container(12);
   text-align: center;
@@ -99,7 +91,6 @@
     color: $heroColor;
     letter-spacing: 0.03em;
   }
-
   .description {
     @include pad(0 1.62rem 2.18rem 1.62rem);
     margin: 0;
@@ -110,7 +101,6 @@
     line-height: 1.5em;
     letter-spacing: 0.03em;
   }
-
   .searchForm {
     @include span-columns(10 of 12);
     @include shift(1);
@@ -135,7 +125,7 @@
       border-radius: 0.18rem;
       border: none;
       -webkit-appearance: none;
-      background-image: url('../assets/arrow.jpg');
+      background-image: url(../assets/arrow-down.jpg);
       background-repeat: no-repeat;
       background-position: 82%;
       font-family: 'Lato', sans-serif;
@@ -150,12 +140,12 @@
       @include span-columns(5 of 10);
       @include omega();
       @include pad(0.62rem 1.25rem 0.62rem 0.62rem);
-      margin: 0.93rem 0 0.93rem 0;
+      margin: 0.93rem 0;
       height: 3.12rem;
       border-radius: 0.18rem;
       border: none;
       -webkit-appearance: none;
-      background-image: url('../assets/arrow.jpg');
+      background-image: url(../assets/arrow-down.jpg);
       background-repeat: no-repeat;
       background-position: 82%;
       font-family: 'Lato', sans-serif;
@@ -166,7 +156,6 @@
         cursor: pointer;
       }
     }
-
     .submitBtn {
       @include span-columns(10 of 10);
       @include omega;
@@ -186,9 +175,7 @@
     }
   }
 }
-
 // FEATURED ------
-
 .featured {
   @include outer-container(12);
   @include pad();
@@ -209,33 +196,29 @@
       }
     }
     .mostPopular {
-      background-image: url('../assets/active.svg');
+      background-image: url(../assets/active-state.svg);
       background-repeat: no-repeat;
       background-position: 0.5rem 1.75rem;
     }
   }
-
-  .artistOne{
-    background-image: url('../assets/chesney.jpg');
+  .artistOne {
+    background-image: url(../assets/chesney.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
-
   .artistTwo {
-    background-image: url('../assets/gerald-albright.jpg');
+    background-image: url(../assets/gerald-albright.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
-
   .artistThree {
-    background-image: url('../assets/the-rock-church.jpg');
+    background-image: url(../assets/the-rock-church.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
-
   .artistPhoto {
     @include span-columns(9 of 12);
     @include shift(1.5);
@@ -243,8 +226,6 @@
     border-radius: 0.18rem;
     height: 16.38rem;
   }
-
-
   .info {
     @include span-columns(8 of 8);
     @include pad(0.93rem 1.25rem 0.62rem 2.81rem);
@@ -272,7 +253,6 @@
       }
     }
   }
-
   .location {
     @include span-columns(3.2 of 8);
     @include shift(0.9);
@@ -291,14 +271,13 @@
       letter-spacing: 0.5;
       font-weight: 300;
     }
-     .location-description {
-       margin: 0;
-       font-size: 1rem;
-       font-weight: 400;
-       color: $eventCityColor;
-     }
+    .location-description {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 400;
+      color: $eventCityColor;
+    }
   }
-
   .price {
     @include span-columns(3.2 of 8);
     @include pad(0.62rem 0.62rem 0.62rem 0.93rem);
@@ -314,18 +293,17 @@
       color: $eventLocationColor;
       letter-spacing: 0.5;
     }
-     .price-description {
-       margin: 0;
-       font-size: 1rem;
-       font-weight: 400;
-       color: $eventCityColor;
-     }
+    .price-description {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 400;
+      color: $eventCityColor;
+    }
   }
-
-   .discover{
-     @include span-columns(12 of 12);
-     @include pad(1.25rem 1.25rem 6.12rem 1.25rem);
-   }
+  .discover {
+    @include span-columns(12 of 12);
+    @include pad(1.25rem 1.25rem 6.12rem 1.25rem);
+  }
   .discoverBtn {
     @include span-columns(6 of 12);
     @include shift(3);
@@ -348,7 +326,6 @@
     }
   }
 }
-
 // FOOTER --------
 .footer {
   @include outer-container(12);
@@ -361,17 +338,15 @@
   height: 8.75rem;
   color: $footerColor;
   font-size: 0.81rem;
-
-   .socialLinks {
-     text-decoration: none;
-     color: $footerColor;
-     font-size: 2rem;
-     &:hover {
-       color: #787B8A;
-       transition: 0.7s;
-     }
-   }
-
+  .socialLinks {
+    text-decoration: none;
+    color: $footerColor;
+    font-size: 2rem;
+    &:hover {
+      color: #787B8A;
+      transition: 0.7s;
+    }
+  }
   .policy {
     color: $footerColor;
     margin-right: 0.87rem;
@@ -379,7 +354,6 @@
       color: #787B8A;
     }
   }
-
   .copyright {
     margin-right: 1.5rem;
     font-size: 0.81rem;
